@@ -25,18 +25,15 @@
   <node concept="hqTRr" id="15Q9O$085Ly">
     <property role="TrG5h" value="trials" />
     <node concept="hqczW" id="15Q9O$08b$9" role="hqcx7">
-      <property role="TrG5h" value="bool" />
+      <property role="TrG5h" value="int1" />
     </node>
     <node concept="hqcyy" id="15Q9O$08eLC" role="hqcx7">
-      <property role="TrG5h" value="boolean" />
+      <property role="TrG5h" value="boolean1" />
     </node>
     <node concept="hqczW" id="15Q9O$08GMi" role="hqcx7">
-      <property role="TrG5h" value="hass" />
+      <property role="TrG5h" value="hass1" />
     </node>
     <node concept="hqcyT" id="15Q9O$08SP6" role="hqcx7">
-      <ref role="hlPB2" node="15Q9O$08GMi" resolve="hass" />
-    </node>
-    <node concept="hqcyT" id="15Q9O$09cHl" role="hqcx7">
       <ref role="hlPB2" node="15Q9O$08GMi" resolve="hass" />
     </node>
   </node>
