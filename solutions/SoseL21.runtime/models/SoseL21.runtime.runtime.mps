@@ -34,7 +34,7 @@
       <property role="TrG5h" value="hass1" />
     </node>
     <node concept="hqcyT" id="15Q9O$08SP6" role="hqcx7">
-      <ref role="hlPB2" node="15Q9O$08GMi" resolve="hass" />
+      <ref role="hlPB2" node="15Q9O$08GMi" resolve="hass1" />
     </node>
   </node>
 </model>

@@ -144,7 +144,7 @@
               <node concept="2OqwBi" id="15Q9O$09$7_" role="3clFbG">
                 <node concept="30H73N" id="15Q9O$09$7A" role="2Oq$k0" />
                 <node concept="2qgKlT" id="15Q9O$09$7B" role="2OqNvi">
-                  <ref role="37wK5l" to="6797:15Q9O$09nlj" resolve="getVarDecls" />
+                  <ref role="37wK5l" to="6797:15Q9O$09nlj" resolve="getBoolDecls" />
                 </node>
               </node>
             </node>
