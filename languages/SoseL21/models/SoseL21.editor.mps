@@ -22,6 +22,7 @@
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
+      <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -222,6 +223,78 @@
         <node concept="3mYdg7" id="2qQqMIexY3q" role="3F10Kt">
           <property role="1413C4" value="body-brace" />
         </node>
+        <node concept="pVoyu" id="2qQqMIeyGWD" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2qQqMIexZ$C">
+    <ref role="1XX52x" to="thnv:2qQqMIexZ$8" resolve="ForStmt" />
+    <node concept="3EZMnI" id="2qQqMIexZ$E" role="2wV5jI">
+      <node concept="l2Vlx" id="2qQqMIexZ$F" role="2iSdaV" />
+      <node concept="PMmxH" id="2qQqMIexZA4" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="2qQqMIexZG8" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F1sOY" id="2qQqMIexZGl" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:2qQqMIexZ$9" resolve="init" />
+      </node>
+      <node concept="3F0ifn" id="2qQqMIexZGv" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+      </node>
+      <node concept="3F1sOY" id="2qQqMIexZGM" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:2qQqMIexZ$b" resolve="cond" />
+      </node>
+      <node concept="3F0ifn" id="2qQqMIexZH0" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+      </node>
+      <node concept="3F1sOY" id="2qQqMIexZHp" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:2qQqMIexZ$e" resolve="step" />
+      </node>
+      <node concept="3F0ifn" id="2qQqMIexZLh" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="3F1sOY" id="2qQqMIexZLK" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:2qQqMIexZ$i" resolve="body" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2qQqMIexZM2">
+    <ref role="1XX52x" to="thnv:2qQqMIexY2B" resolve="WhileStmt" />
+    <node concept="3EZMnI" id="2qQqMIexZM4" role="2wV5jI">
+      <node concept="l2Vlx" id="2qQqMIexZM5" role="2iSdaV" />
+      <node concept="PMmxH" id="2qQqMIexZNP" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="2qQqMIexZNU" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F1sOY" id="2qQqMIexZO2" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:2qQqMIexY4Z" resolve="cond" />
+      </node>
+      <node concept="3F0ifn" id="2qQqMIexZOc" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="3F1sOY" id="2qQqMIexZOo" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:2qQqMIexY2P" resolve="body" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2qQqMIeyGXC">
+    <ref role="1XX52x" to="thnv:3K7Qb_bTHkc" resolve="BoolBinaryExpr" />
+    <node concept="3EZMnI" id="2qQqMIeyGXE" role="2wV5jI">
+      <node concept="3F1sOY" id="2qQqMIeyGXL" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:6JWzqQlaDlC" resolve="left" />
+      </node>
+      <node concept="PMmxH" id="2qQqMIeyGXR" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="2iRfu4" id="2qQqMIeyGXH" role="2iSdaV" />
+      <node concept="3F1sOY" id="2qQqMIeyGXY" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:6JWzqQlaDlE" resolve="right" />
       </node>
     </node>
   </node>
