@@ -284,21 +284,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="2qQqMIeyGXC">
-    <ref role="1XX52x" to="thnv:3K7Qb_bTHkc" resolve="BoolBinaryExpr" />
-    <node concept="3EZMnI" id="2qQqMIeyGXE" role="2wV5jI">
-      <node concept="3F1sOY" id="2qQqMIeyGXL" role="3EZMnx">
-        <ref role="1NtTu8" to="thnv:6JWzqQlaDlC" resolve="left" />
-      </node>
-      <node concept="PMmxH" id="2qQqMIeyGXR" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      </node>
-      <node concept="2iRfu4" id="2qQqMIeyGXH" role="2iSdaV" />
-      <node concept="3F1sOY" id="2qQqMIeyGXY" role="3EZMnx">
-        <ref role="1NtTu8" to="thnv:6JWzqQlaDlE" resolve="right" />
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="3WpT_OHt8FA">
     <ref role="1XX52x" to="thnv:3WpT_OHt8F1" resolve="FunctionParameter" />
     <node concept="3EZMnI" id="3WpT_OHt8FF" role="2wV5jI">
@@ -340,6 +325,21 @@
       </node>
       <node concept="3F0A7n" id="3WpT_OHt8Ig" role="3EZMnx">
         <ref role="1NtTu8" to="thnv:3WpT_OHt8ES" resolve="returnTypeName" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2qQqMIeyTOI">
+    <ref role="1XX52x" to="thnv:2qQqMIeyTO$" resolve="BoolBinaryExpr" />
+    <node concept="3EZMnI" id="2qQqMIeyTOK" role="2wV5jI">
+      <node concept="l2Vlx" id="2qQqMIeyTOL" role="2iSdaV" />
+      <node concept="3F1sOY" id="2qQqMIeyTOU" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:6JWzqQlaDlC" resolve="left" />
+      </node>
+      <node concept="3F0A7n" id="2qQqMIezaCZ" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:2qQqMIezaCX" resolve="op" />
+      </node>
+      <node concept="3F1sOY" id="2qQqMIeyTP0" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:6JWzqQlaDlE" resolve="right" />
       </node>
     </node>
   </node>
