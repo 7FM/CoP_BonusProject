@@ -329,5 +329,51 @@
       <ref role="PrY4T" node="2qQqMIexY2D" resolve="IStmt" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3WpT_OHt8EK">
+    <property role="EcuMT" value="4546918586676185776" />
+    <property role="TrG5h" value="FunctionBody" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
+  <node concept="1TIwiD" id="3WpT_OHt8EF">
+    <property role="EcuMT" value="4546918586676185771" />
+    <property role="TrG5h" value="FunctionDeclaration" />
+    <property role="34LRSv" value="function" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="3WpT_OHt8EI" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="3WpT_OHt8F9" role="1TKVEi">
+      <property role="IQ2ns" value="4546918586676185801" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="parameters" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3WpT_OHt8F1" resolve="FunctionParameter" />
+    </node>
+    <node concept="1TJgyj" id="3WpT_OHt8EP" role="1TKVEi">
+      <property role="IQ2ns" value="4546918586676185781" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3WpT_OHt8EK" resolve="FunctionBody" />
+    </node>
+    <node concept="1TJgyi" id="3WpT_OHt8ES" role="1TKVEl">
+      <property role="IQ2nx" value="4546918586676185784" />
+      <property role="TrG5h" value="returnTypeName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3WpT_OHt8F1">
+    <property role="EcuMT" value="4546918586676185793" />
+    <property role="TrG5h" value="FunctionParameter" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="3WpT_OHt8F2" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="3WpT_OHt8F4" role="1TKVEl">
+      <property role="IQ2nx" value="4546918586676185796" />
+      <property role="TrG5h" value="typeName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 
