@@ -113,7 +113,7 @@
           <property role="TrG5h" value="references" />
           <node concept="A3Dl8" id="15Q9O$08W$p" role="1tU5fm">
             <node concept="3Tqbb2" id="15Q9O$08XCQ" role="A3Ik2">
-              <ref role="ehGHo" to="thnv:15Q9O$07IZK" resolve="RefDecl" />
+              <ref role="ehGHo" to="thnv:$fAm9T6hJr" resolve="RefStmt" />
             </node>
           </node>
           <node concept="2OqwBi" id="15Q9O$08XNK" role="33vP2m">
@@ -143,7 +143,7 @@
                           <ref role="3cqZAo" node="15Q9O$092UU" resolve="it" />
                         </node>
                         <node concept="3TrEf2" id="15Q9O$093JX" role="2OqNvi">
-                          <ref role="3Tt5mk" to="thnv:15Q9O$08nUb" resolve="original" />
+                          <ref role="3Tt5mk" to="thnv:$fAm9T6iba" resolve="decl" />
                         </node>
                       </node>
                     </node>
@@ -159,7 +159,7 @@
           </node>
           <node concept="A3Dl8" id="15Q9O$096jh" role="1tU5fm">
             <node concept="3Tqbb2" id="15Q9O$096jk" role="A3Ik2">
-              <ref role="ehGHo" to="thnv:15Q9O$07IWb" resolve="IVarDecl" />
+              <ref role="ehGHo" to="thnv:1N81XYtR2vt" resolve="DeclStmt" />
             </node>
           </node>
         </node>
