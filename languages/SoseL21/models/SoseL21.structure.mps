@@ -157,7 +157,7 @@
   </node>
   <node concept="PlHQZ" id="6JWzqQlaDlB">
     <property role="EcuMT" value="7781250032860829031" />
-    <property role="TrG5h" value="BinaryExpr" />
+    <property role="TrG5h" value="IBinaryExpr" />
     <node concept="1TJgyj" id="6JWzqQlaDlC" role="1TKVEi">
       <property role="IQ2ns" value="7781250032860829032" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -174,42 +174,6 @@
     </node>
     <node concept="PrWs8" id="6JWzqQlaDmK" role="PrDN$">
       <ref role="PrY4T" node="15Q9O$08GmA" resolve="IExpr" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6JWzqQlaDmH">
-    <property role="EcuMT" value="7781250032860829101" />
-    <property role="TrG5h" value="MulExpr" />
-    <property role="34LRSv" value="*" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6JWzqQlaDmI" role="PzmwI">
-      <ref role="PrY4T" node="6JWzqQlaDlB" resolve="BinaryExpr" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6JWzqQlb5gZ">
-    <property role="EcuMT" value="7781250032860943423" />
-    <property role="TrG5h" value="AddExpr" />
-    <property role="34LRSv" value="+" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6JWzqQlb5h0" role="PzmwI">
-      <ref role="PrY4T" node="6JWzqQlaDlB" resolve="BinaryExpr" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6JWzqQlb5h2">
-    <property role="EcuMT" value="7781250032860943426" />
-    <property role="TrG5h" value="SubExpr" />
-    <property role="34LRSv" value="-" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6JWzqQlb5h3" role="PzmwI">
-      <ref role="PrY4T" node="6JWzqQlaDlB" resolve="BinaryExpr" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6JWzqQlb5h5">
-    <property role="EcuMT" value="7781250032860943429" />
-    <property role="TrG5h" value="DivExpr" />
-    <property role="34LRSv" value="/" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6JWzqQlb5h6" role="PzmwI">
-      <ref role="PrY4T" node="6JWzqQlaDlB" resolve="BinaryExpr" />
     </node>
   </node>
   <node concept="PlHQZ" id="2qQqMIexY2D">
@@ -382,7 +346,7 @@
     <property role="TrG5h" value="BoolBinaryExpr" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="2qQqMIeyTO_" role="PzmwI">
-      <ref role="PrY4T" node="6JWzqQlaDlB" resolve="BinaryExpr" />
+      <ref role="PrY4T" node="6JWzqQlaDlB" resolve="IBinaryExpr" />
     </node>
     <node concept="1TJgyi" id="2qQqMIezaCX" role="1TKVEl">
       <property role="IQ2nx" value="2789534854021950013" />
@@ -428,7 +392,44 @@
       <property role="IQ2ns" value="4325664257466753406" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="condition" />
-      <ref role="20lvS9" node="3K7Qb_bTHkc" resolve="BoolBinaryExpr" />
+      <ref role="20lvS9" node="2qQqMIeyTO$" resolve="BoolBinaryExpr" />
+    </node>
+  </node>
+  <node concept="25R3W" id="4mYLE1vTTgJ">
+    <property role="3F6X1D" value="5025672626298131503" />
+    <property role="TrG5h" value="ArithBinaryOps" />
+    <node concept="25R33" id="4mYLE1vTTgL" role="25R1y">
+      <property role="3tVfz5" value="5025672626298131505" />
+      <property role="TrG5h" value="plus" />
+      <property role="1L1pqM" value="+" />
+    </node>
+    <node concept="25R33" id="4mYLE1vTTgK" role="25R1y">
+      <property role="3tVfz5" value="5025672626298131504" />
+      <property role="1L1pqM" value="-" />
+      <property role="TrG5h" value="minus" />
+    </node>
+    <node concept="25R33" id="4mYLE1vTTgO" role="25R1y">
+      <property role="3tVfz5" value="5025672626298131508" />
+      <property role="TrG5h" value="mul" />
+      <property role="1L1pqM" value="*" />
+    </node>
+    <node concept="25R33" id="4mYLE1vTTgS" role="25R1y">
+      <property role="3tVfz5" value="5025672626298131512" />
+      <property role="TrG5h" value="div" />
+      <property role="1L1pqM" value="/" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4mYLE1vTTgX">
+    <property role="EcuMT" value="5025672626298131517" />
+    <property role="TrG5h" value="ArithBinaryExpr" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="4mYLE1vTTgY" role="1TKVEl">
+      <property role="IQ2nx" value="5025672626298131518" />
+      <property role="TrG5h" value="op" />
+      <ref role="AX2Wp" node="4mYLE1vTTgJ" resolve="ArithBinaryOps" />
+    </node>
+    <node concept="PrWs8" id="4mYLE1vTTh0" role="PzmwI">
+      <ref role="PrY4T" node="6JWzqQlaDlB" resolve="IBinaryExpr" />
     </node>
   </node>
 </model>

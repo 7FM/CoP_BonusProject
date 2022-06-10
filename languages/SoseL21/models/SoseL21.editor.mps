@@ -182,7 +182,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6JWzqQlaDlY">
-    <ref role="1XX52x" to="thnv:6JWzqQlaDlB" resolve="BinaryExpr" />
+    <ref role="1XX52x" to="thnv:6JWzqQlaDlB" resolve="IBinaryExpr" />
     <node concept="3EZMnI" id="6JWzqQlaDmb" role="2wV5jI">
       <node concept="3F1sOY" id="6JWzqQlaDmi" role="3EZMnx">
         <ref role="1NtTu8" to="thnv:6JWzqQlaDlC" resolve="left" />
@@ -401,6 +401,21 @@
         <ref role="1NtTu8" to="thnv:3K7Qb_bUdVe" resolve="elseIfs" />
       </node>
       <node concept="l2Vlx" id="3K7Qb_bU$ce" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4mYLE1vTThg">
+    <ref role="1XX52x" to="thnv:4mYLE1vTTgX" resolve="ArithBinaryExpr" />
+    <node concept="3EZMnI" id="4mYLE1vTThi" role="2wV5jI">
+      <node concept="l2Vlx" id="4mYLE1vTThj" role="2iSdaV" />
+      <node concept="3F1sOY" id="4mYLE1vTTiK" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:6JWzqQlaDlC" resolve="left" />
+      </node>
+      <node concept="3F0A7n" id="4mYLE1vTThs" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:4mYLE1vTTgY" resolve="op" />
+      </node>
+      <node concept="3F1sOY" id="4mYLE1vTThC" role="3EZMnx">
+        <ref role="1NtTu8" to="thnv:6JWzqQlaDlE" resolve="right" />
+      </node>
     </node>
   </node>
 </model>

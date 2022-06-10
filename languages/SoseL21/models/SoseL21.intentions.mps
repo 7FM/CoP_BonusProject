@@ -139,7 +139,7 @@
   </registry>
   <node concept="2S6QgY" id="7YkubbgC$tl">
     <property role="TrG5h" value="InvokeWorksheet" />
-    <ref role="2ZfgGC" to="thnv:6JWzqQlaDlB" resolve="BinaryExpr" />
+    <ref role="2ZfgGC" to="thnv:6JWzqQlaDlB" resolve="IBinaryExpr" />
     <node concept="2S6ZIM" id="7YkubbgC$tm" role="2ZfVej">
       <node concept="3clFbS" id="7YkubbgC$tn" role="2VODD2">
         <node concept="3clFbF" id="7YkubbgC$zA" role="3cqZAp">
