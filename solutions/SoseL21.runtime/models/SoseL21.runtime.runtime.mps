@@ -37,20 +37,20 @@
   </registry>
   <node concept="hqTRr" id="15Q9O$085Ly">
     <property role="TrG5h" value="trials" />
-    <node concept="215202" id="$fAm9T9ex$" role="hqcx7">
-      <property role="TrG5h" value="myvar" />
-      <node concept="21520f" id="$fAm9T9exC" role="215hNl" />
-      <node concept="215ktl" id="$fAm9T9ezT" role="215hL2">
-        <property role="215ktk" value="2" />
+    <node concept="215202" id="6aIcktYqh0T" role="hqcx7">
+      <property role="TrG5h" value="test" />
+      <node concept="21520f" id="6aIcktYqh0X" role="215hNl" />
+      <node concept="215ktl" id="6aIcktYqrZ2" role="215hL2">
+        <property role="215ktk" value="32" />
       </node>
     </node>
-    <node concept="qmlat" id="$fAm9T9exJ" role="hqcx7">
+    <node concept="qmlat" id="6aIcktYqrZa" role="hqcx7">
       <property role="qmlau" value="4mYLE1vTTgO/mul" />
-      <node concept="215ktu" id="$fAm9T9exS" role="3YPxz5">
-        <ref role="215mAO" node="$fAm9T9ex$" resolve="myvar" />
+      <node concept="215ktu" id="6aIcktYqrZk" role="3YPxz5">
+        <ref role="215mAO" node="6aIcktYqh0T" resolve="test" />
       </node>
-      <node concept="215ktl" id="$fAm9T9exV" role="3YPxz7">
-        <property role="215ktk" value="22" />
+      <node concept="215ktl" id="6aIcktYqrZq" role="3YPxz7">
+        <property role="215ktk" value="2" />
       </node>
     </node>
   </node>

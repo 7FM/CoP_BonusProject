@@ -386,13 +386,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="6wYt4RKMbSx">
-    <property role="3GE5qa" value="Types" />
-    <ref role="1XX52x" to="thnv:6wYt4RKMbSn" resolve="Type" />
-    <node concept="PMmxH" id="6wYt4RKMbSA" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-    </node>
-  </node>
   <node concept="24kQdi" id="1N81XYtRhGs">
     <property role="3GE5qa" value="Stmt" />
     <ref role="1XX52x" to="thnv:1N81XYtR2vt" resolve="DeclStmt" />
@@ -482,6 +475,13 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6aIcktYqhjH">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="thnv:6aIcktYoHb$" resolve="Type" />
+    <node concept="PMmxH" id="6aIcktYqhjJ" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
 </model>

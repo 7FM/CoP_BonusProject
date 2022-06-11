@@ -34,6 +34,7 @@
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
@@ -565,7 +566,7 @@
                           </node>
                         </node>
                         <node concept="1mIQ4w" id="$fAm9T9OmP" role="2OqNvi">
-                          <node concept="chp4Y" id="$fAm9T9OmQ" role="cj9EA">
+                          <node concept="chp4Y" id="6aIcktYq4LJ" role="cj9EA">
                             <ref role="cht4Q" to="thnv:1N81XYtR2vj" resolve="BooleanType" />
                           </node>
                         </node>
@@ -731,7 +732,9 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs6" id="1OoxxWeJJjd" role="3cqZAp" />
+            <node concept="3cpWs6" id="1OoxxWeJJjd" role="3cqZAp">
+              <node concept="10Nm6u" id="6aIcktYqafL" role="3cqZAk" />
+            </node>
           </node>
         </node>
       </node>
@@ -777,7 +780,9 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs6" id="1OoxxWeJMCp" role="3cqZAp" />
+            <node concept="3cpWs6" id="1OoxxWeJMCp" role="3cqZAp">
+              <node concept="10Nm6u" id="6aIcktYqafz" role="3cqZAk" />
+            </node>
           </node>
         </node>
       </node>
@@ -850,7 +855,9 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs6" id="1OoxxWeK3$k" role="3cqZAp" />
+            <node concept="3cpWs6" id="1OoxxWeK3$k" role="3cqZAp">
+              <node concept="10Nm6u" id="6aIcktYqaf7" role="3cqZAk" />
+            </node>
           </node>
         </node>
       </node>
@@ -875,7 +882,9 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs6" id="1OoxxWeK8qV" role="3cqZAp" />
+            <node concept="3cpWs6" id="1OoxxWeK8qV" role="3cqZAp">
+              <node concept="10Nm6u" id="6aIcktYqafl" role="3cqZAk" />
+            </node>
           </node>
         </node>
       </node>
