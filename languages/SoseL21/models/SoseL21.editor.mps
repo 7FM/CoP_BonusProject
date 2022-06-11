@@ -306,7 +306,7 @@
   </node>
   <node concept="24kQdi" id="2qQqMIeyTOI">
     <property role="3GE5qa" value="Expr.Binary" />
-    <ref role="1XX52x" to="thnv:2qQqMIeyTO$" resolve="BoolBinaryExpr" />
+    <ref role="1XX52x" to="thnv:2qQqMIeyTO$" resolve="CmpBinaryExpr" />
     <node concept="3EZMnI" id="2qQqMIeyTOK" role="2wV5jI">
       <node concept="l2Vlx" id="2qQqMIeyTOL" role="2iSdaV" />
       <node concept="3F1sOY" id="2qQqMIeyTOU" role="3EZMnx">

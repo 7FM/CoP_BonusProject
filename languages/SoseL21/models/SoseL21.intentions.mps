@@ -26,6 +26,10 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1083245097125" name="jetbrains.mps.baseLanguage.structure.EnumClass" flags="ig" index="Qs71p">
+        <child id="1083245396908" name="enumConstant" index="Qtgdg" />
+      </concept>
+      <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -87,6 +91,7 @@
       </concept>
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
+        <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
@@ -333,6 +338,40 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="7YkubbgDd4W" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="1OoxxWeITbC">
+    <property role="3GE5qa" value="Expr" />
+    <property role="TrG5h" value="Precedence" />
+    <node concept="Qs71p" id="1OoxxWeJ4Ge" role="jymVt">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="Precendence" />
+      <node concept="3Tm1VV" id="1OoxxWeJ4Gf" role="1B3o_S" />
+      <node concept="QsSxf" id="1OoxxWeJ4Ww" role="Qtgdg">
+        <property role="TrG5h" value="UnaryNot" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="1OoxxWeJ52b" role="Qtgdg">
+        <property role="TrG5h" value="Mul" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="1OoxxWeJ5tl" role="Qtgdg">
+        <property role="TrG5h" value="Div" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+      </node>
+      <node concept="QsSxf" id="1OoxxWeJ5$3" role="Qtgdg">
+        <property role="TrG5h" value="Plus" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+      </node>
+      <node concept="QsSxf" id="1OoxxWeJ5Jy" role="Qtgdg">
+        <property role="TrG5h" value="Minus" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+      </node>
+      <node concept="QsSxf" id="1OoxxWeJ5QY" role="Qtgdg">
+        <property role="TrG5h" value="Cmp" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="1OoxxWeITbD" role="1B3o_S" />
   </node>
 </model>
 
