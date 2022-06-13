@@ -492,10 +492,59 @@
       <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
     </node>
   </node>
+  <node concept="PlHQZ" id="mNK0fajmcR">
+    <property role="TrG5h" value="IFuncCall" />
+    <property role="3GE5qa" value="Func.Call" />
+    <property role="EcuMT" value="410883113532351284" />
+    <node concept="1TJgyj" id="mNK0fajmd3" role="1TKVEi">
+      <property role="IQ2ns" value="410883113532351299" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arguments" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1N81XYtRk21" resolve="VariableReference" />
+    </node>
+    <node concept="PrWs8" id="mNK0fajmcS" role="PrDN$">
+      <ref role="PrY4T" node="15Q9O$08GmA" resolve="IExpr" />
+    </node>
+    <node concept="PrWs8" id="mNK0fajmcV" role="PrDN$">
+      <ref role="PrY4T" node="2qQqMIexY2D" resolve="IStmt" />
+    </node>
+    <node concept="1TJgyj" id="mNK0fajmcY" role="1TKVEi">
+      <property role="IQ2ns" value="410883113532351294" />
+      <property role="20kJfa" value="fdecl" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3WpT_OHt8EF" resolve="FunctionDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="mNK0fajmda">
+    <property role="EcuMT" value="410883113532351306" />
+    <property role="3GE5qa" value="Func.Call" />
+    <property role="TrG5h" value="StaticFuncCall" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="mNK0fajmdb" role="PzmwI">
+      <ref role="PrY4T" node="mNK0fajmcR" resolve="IFuncCall" />
+    </node>
+  </node>
   <node concept="PlHQZ" id="mNK0faiI03">
     <property role="EcuMT" value="410883113532186627" />
     <property role="TrG5h" value="IClass" />
     <property role="3GE5qa" value="Class" />
+  </node>
+  <node concept="1TIwiD" id="mNK0fajmd0">
+    <property role="EcuMT" value="410883113532351296" />
+    <property role="3GE5qa" value="Func.Call" />
+    <property role="TrG5h" value="NonVirtualFuncCall" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="mNK0fajmd1" role="1TKVEi">
+      <property role="IQ2ns" value="410883113532351297" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="baseObject" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1N81XYtRk21" resolve="VariableReference" />
+    </node>
+    <node concept="PrWs8" id="mNK0fajmdd" role="PzmwI">
+      <ref role="PrY4T" node="mNK0fajmcR" resolve="IFuncCall" />
+    </node>
   </node>
   <node concept="1TIwiD" id="mNK0faiI04">
     <property role="EcuMT" value="410883113532186628" />
@@ -527,53 +576,20 @@
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
-  <node concept="PlHQZ" id="mNK0fajmcR">
-    <property role="TrG5h" value="IFuncCall" />
-    <property role="3GE5qa" value="Func.Call" />
-    <property role="EcuMT" value="410883113532351284" />
-    <node concept="1TJgyj" id="mNK0fajmd3" role="1TKVEi">
-      <property role="IQ2ns" value="410883113532351299" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="arguments" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1N81XYtRk21" resolve="VariableReference" />
-    </node>
-    <node concept="PrWs8" id="mNK0fajmcS" role="PrDN$">
-      <ref role="PrY4T" node="15Q9O$08GmA" resolve="IExpr" />
-    </node>
-    <node concept="PrWs8" id="mNK0fajmcV" role="PrDN$">
+  <node concept="1TIwiD" id="6N9oLy0LZt8">
+    <property role="EcuMT" value="7838905583306012488" />
+    <property role="3GE5qa" value="Stmt" />
+    <property role="TrG5h" value="ReturnStmt" />
+    <property role="34LRSv" value="return" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="6N9oLy0LZt9" role="PzmwI">
       <ref role="PrY4T" node="2qQqMIexY2D" resolve="IStmt" />
     </node>
-    <node concept="1TJgyj" id="mNK0fajmcY" role="1TKVEi">
-      <property role="IQ2ns" value="410883113532351294" />
-      <property role="20kJfa" value="fdecl" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3WpT_OHt8EF" resolve="FunctionDeclaration" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="mNK0fajmd0">
-    <property role="EcuMT" value="410883113532351296" />
-    <property role="3GE5qa" value="Func.Call" />
-    <property role="TrG5h" value="NonVirtualFuncCall" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="mNK0fajmd1" role="1TKVEi">
-      <property role="IQ2ns" value="410883113532351297" />
+    <node concept="1TJgyj" id="6N9oLy0LZtb" role="1TKVEi">
+      <property role="IQ2ns" value="7838905583306012491" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="baseObject" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1N81XYtRk21" resolve="VariableReference" />
-    </node>
-    <node concept="PrWs8" id="mNK0fajmdd" role="PzmwI">
-      <ref role="PrY4T" node="mNK0fajmcR" resolve="IFuncCall" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="mNK0fajmda">
-    <property role="EcuMT" value="410883113532351306" />
-    <property role="3GE5qa" value="Func.Call" />
-    <property role="TrG5h" value="StaticFuncCall" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="PrWs8" id="mNK0fajmdb" role="PzmwI">
-      <ref role="PrY4T" node="mNK0fajmcR" resolve="IFuncCall" />
+      <property role="20kJfa" value="returnValue" />
+      <ref role="20lvS9" node="15Q9O$08GmA" resolve="IExpr" />
     </node>
   </node>
 </model>
