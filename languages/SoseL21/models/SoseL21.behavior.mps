@@ -43,6 +43,10 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -121,36 +125,11 @@
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
+      <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
     </language>
   </registry>
   <node concept="13h7C7" id="15Q9O$09gkn">
     <ref role="13h7C2" to="thnv:15Q9O$07rEi" resolve="Worksheet" />
-    <node concept="13i0hz" id="15Q9O$09gSC" role="13h7CS">
-      <property role="TrG5h" value="getReferences" />
-      <node concept="3Tm1VV" id="15Q9O$09gSD" role="1B3o_S" />
-      <node concept="A3Dl8" id="15Q9O$09gSS" role="3clF45">
-        <node concept="3Tqbb2" id="15Q9O$09gT5" role="A3Ik2">
-          <ref role="ehGHo" to="thnv:$fAm9T6hJr" resolve="RefStmt" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="15Q9O$09gSF" role="3clF47">
-        <node concept="3clFbF" id="15Q9O$09gUc" role="3cqZAp">
-          <node concept="2OqwBi" id="15Q9O$09izl" role="3clFbG">
-            <node concept="2OqwBi" id="15Q9O$09h4g" role="2Oq$k0">
-              <node concept="13iPFW" id="15Q9O$09gUa" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="15Q9O$09hmV" role="2OqNvi">
-                <ref role="3TtcxE" to="thnv:15Q9O$07IWe" resolve="contents" />
-              </node>
-            </node>
-            <node concept="v3k3i" id="15Q9O$0920Q" role="2OqNvi">
-              <node concept="chp4Y" id="15Q9O$0921V" role="v3oSu">
-                <ref role="cht4Q" to="thnv:$fAm9T6hJr" resolve="RefStmt" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="13i0hz" id="15Q9O$09yOf" role="13h7CS">
       <property role="TrG5h" value="getDeclarations" />
       <node concept="3Tm1VV" id="15Q9O$09yOg" role="1B3o_S" />
@@ -413,6 +392,38 @@
       </node>
       <node concept="3bZ5Sz" id="6aIcktYpfx3" role="3clF45">
         <ref role="3bZ5Sy" to="thnv:6aIcktYoHb$" resolve="Type" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="6N9oLy0Nc1n">
+    <property role="3GE5qa" value="Func" />
+    <ref role="13h7C2" to="thnv:3WpT_OHt8EK" resolve="FunctionBody" />
+    <node concept="13hLZK" id="6N9oLy0Nc1o" role="13h7CW">
+      <node concept="3clFbS" id="6N9oLy0Nc1p" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6N9oLy0Nc1y" role="13h7CS">
+      <property role="TrG5h" value="getReturnStmt" />
+      <node concept="3Tm1VV" id="6N9oLy0Nc1z" role="1B3o_S" />
+      <node concept="3Tqbb2" id="6N9oLy0Nc1M" role="3clF45">
+        <ref role="ehGHo" to="thnv:6N9oLy0LZt8" resolve="ReturnStmt" />
+      </node>
+      <node concept="3clFbS" id="6N9oLy0Nc1_" role="3clF47">
+        <node concept="3cpWs6" id="6N9oLy0Nc2t" role="3cqZAp">
+          <node concept="10QFUN" id="6N9oLy0Ngv5" role="3cqZAk">
+            <node concept="2OqwBi" id="6N9oLy0NdIr" role="10QFUP">
+              <node concept="2OqwBi" id="6N9oLy0NccX" role="2Oq$k0">
+                <node concept="13iPFW" id="6N9oLy0Nc2Z" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="6N9oLy0NclM" role="2OqNvi">
+                  <ref role="3TtcxE" to="thnv:3WpT_OHtkiL" resolve="statements" />
+                </node>
+              </node>
+              <node concept="1yVyf7" id="6N9oLy0NeRF" role="2OqNvi" />
+            </node>
+            <node concept="3Tqbb2" id="6N9oLy0Ngv6" role="10QFUM">
+              <ref role="ehGHo" to="thnv:6N9oLy0LZt8" resolve="ReturnStmt" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
