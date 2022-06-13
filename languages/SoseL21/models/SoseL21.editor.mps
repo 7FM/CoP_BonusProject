@@ -453,30 +453,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="$fAm9T6ibj">
-    <property role="3GE5qa" value="Stmt" />
-    <ref role="1XX52x" to="thnv:$fAm9T6hJr" resolve="RefStmt" />
-    <node concept="3EZMnI" id="$fAm9T76qb" role="2wV5jI">
-      <node concept="l2Vlx" id="$fAm9T76qc" role="2iSdaV" />
-      <node concept="PMmxH" id="$fAm9T76qO" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      </node>
-      <node concept="1iCGBv" id="$fAm9T76qf" role="3EZMnx">
-        <ref role="1NtTu8" to="thnv:$fAm9T6iba" resolve="decl" />
-        <node concept="1sVBvm" id="$fAm9T76qi" role="1sWHZn">
-          <node concept="3F0A7n" id="$fAm9T76qk" role="2wV5jI">
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="3F0ifn" id="$fAm9T76ql" role="3EZMnx">
-        <property role="3F0ifm" value=";" />
-        <node concept="11L4FC" id="$fAm9T76qm" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="6aIcktYqhjH">
     <property role="3GE5qa" value="Types" />
     <ref role="1XX52x" to="thnv:6aIcktYoHb$" resolve="Type" />
