@@ -356,19 +356,19 @@
       </node>
       <node concept="QsSxf" id="1OoxxWeJ5tl" role="Qtgdg">
         <property role="TrG5h" value="Div" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="1OoxxWeJ5$3" role="Qtgdg">
         <property role="TrG5h" value="Plus" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="1OoxxWeJ5Jy" role="Qtgdg">
         <property role="TrG5h" value="Minus" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="1OoxxWeJ5QY" role="Qtgdg">
         <property role="TrG5h" value="Cmp" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
     </node>
     <node concept="3Tm1VV" id="1OoxxWeITbD" role="1B3o_S" />

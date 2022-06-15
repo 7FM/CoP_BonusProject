@@ -91,5 +91,23 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="7aFqT7gIuwH">
+    <property role="3GE5qa" value="Func" />
+    <ref role="1M2myG" to="thnv:3WpT_OHt8EK" resolve="FunctionBody" />
+    <node concept="9S07l" id="7aFqT7gIuwI" role="9Vyp8">
+      <node concept="3clFbS" id="7aFqT7gIuwJ" role="2VODD2">
+        <node concept="3clFbF" id="7aFqT7gIu$I" role="3cqZAp">
+          <node concept="2OqwBi" id="7aFqT7gIuLw" role="3clFbG">
+            <node concept="nLn13" id="7aFqT7gIu$H" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="7aFqT7gIuZR" role="2OqNvi">
+              <node concept="chp4Y" id="7aFqT7gIv5W" role="cj9EA">
+                <ref role="cht4Q" to="thnv:3WpT_OHt8EF" resolve="FunctionDeclaration" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
