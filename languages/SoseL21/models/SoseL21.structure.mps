@@ -68,15 +68,12 @@
     <node concept="PrWs8" id="15Q9O$07IW9" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="PrWs8" id="$fAm9T8_fv" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
     <node concept="1TJgyj" id="15Q9O$07IWe" role="1TKVEi">
       <property role="IQ2ns" value="1258236340384755470" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="contents" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2qQqMIexY2D" resolve="IStmt" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2qQqMIexY2I" resolve="CompoundStmt" />
     </node>
   </node>
   <node concept="PlHQZ" id="15Q9O$08GmA">
@@ -118,6 +115,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="2qQqMIexY2J" role="PzmwI">
       <ref role="PrY4T" node="2qQqMIexY2D" resolve="IStmt" />
+    </node>
+    <node concept="PrWs8" id="6N9oLy0NLME" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
     <node concept="1TJgyj" id="2qQqMIexY2L" role="1TKVEi">
       <property role="IQ2ns" value="2789534854021636273" />
@@ -189,14 +189,7 @@
     <property role="EcuMT" value="4546918586676185776" />
     <property role="TrG5h" value="FunctionBody" />
     <property role="3GE5qa" value="Func" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="3WpT_OHtkiL" role="1TKVEi">
-      <property role="IQ2ns" value="4546918586676233393" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="statements" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2qQqMIexY2D" resolve="IStmt" />
-    </node>
+    <ref role="1TJDcQ" node="2qQqMIexY2I" resolve="CompoundStmt" />
   </node>
   <node concept="1TIwiD" id="3WpT_OHt8EF">
     <property role="EcuMT" value="4546918586676185771" />
@@ -331,7 +324,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="body" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2qQqMIexY2I" resolve="CompoundStmt" />
+      <ref role="20lvS9" node="2qQqMIexY2D" resolve="IStmt" />
     </node>
     <node concept="1TJgyj" id="3K7Qb_bUe5Y" role="1TKVEi">
       <property role="IQ2ns" value="4325664257466753406" />
