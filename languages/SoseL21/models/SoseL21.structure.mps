@@ -200,9 +200,6 @@
     <property role="TrG5h" value="FunctionBody" />
     <property role="3GE5qa" value="Func" />
     <ref role="1TJDcQ" node="2qQqMIexY2I" resolve="CompoundStmt" />
-    <node concept="PrWs8" id="mNK0faiLin" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3WpT_OHt8EF">
     <property role="EcuMT" value="4546918586676185771" />
@@ -237,6 +234,9 @@
     <node concept="PrWs8" id="3WpT_OHtP0o" role="PzmwI">
       <ref role="PrY4T" node="2qQqMIexY2D" resolve="IStmt" />
     </node>
+    <node concept="PrWs8" id="34GktjlGfB9" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1X3_iC" id="mNK0faq_uM" role="lGtFl">
       <property role="3V$3am" value="linkDeclaration" />
       <property role="3V$3ak" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1169125787135/1071489727083" />
@@ -260,6 +260,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3WpT_OHt8F2" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="34GktjlGmE7" role="PzmwI">
+      <ref role="PrY4T" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
     </node>
     <node concept="1TJgyj" id="1N81XYtRnKT" role="1TKVEi">
       <property role="IQ2ns" value="2073916285411753017" />
@@ -452,7 +455,7 @@
       <property role="IQ2ns" value="2073916285411749483" />
       <property role="20kJfa" value="decl" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1N81XYtR2vt" resolve="DeclStmt" />
+      <ref role="20lvS9" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
     </node>
   </node>
   <node concept="PlHQZ" id="1N81XYtRk29">
