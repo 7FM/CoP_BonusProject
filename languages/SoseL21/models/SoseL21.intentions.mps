@@ -374,13 +374,13 @@
     <node concept="3Tm1VV" id="1OoxxWeITbD" role="1B3o_S" />
   </node>
   <node concept="2S6QgY" id="mNK0fapheT">
-    <property role="TrG5h" value="Inv" />
-    <ref role="2ZfgGC" to="thnv:3WpT_OHt8EF" resolve="FunctionDeclaration" />
+    <property role="TrG5h" value="InvClass" />
+    <ref role="2ZfgGC" to="thnv:mNK0faiI04" resolve="ClassDefinition" />
     <node concept="2S6ZIM" id="mNK0fapheU" role="2ZfVej">
       <node concept="3clFbS" id="mNK0fapheV" role="2VODD2">
         <node concept="3clFbF" id="mNK0faphx9" role="3cqZAp">
           <node concept="Xl_RD" id="mNK0faphx8" role="3clFbG">
-            <property role="Xl_RC" value="Interpret Worksheet" />
+            <property role="Xl_RC" value="Interpret Class" />
           </node>
         </node>
       </node>
