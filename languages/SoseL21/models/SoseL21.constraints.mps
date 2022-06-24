@@ -16,8 +16,8 @@
   <imports>
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="thnv" ref="r:6a0fead8-79f9-450f-8764-f9435d176b3f(SoseL21.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -79,16 +79,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1M2fIO" id="1N81XYtRn6r">
-    <property role="3GE5qa" value="Expr.Atom" />
-    <ref role="1M2myG" to="thnv:1N81XYtRk21" resolve="VariableReference" />
-    <node concept="1N5Pfh" id="$fAm9T944l" role="1Mr941">
-      <ref role="1N5Vy1" to="thnv:1N81XYtRmTF" resolve="decl" />
-      <node concept="1dDu$B" id="$fAm9T9457" role="1N6uqs">
-        <ref role="1dDu$A" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="6N9oLy0M3vI">
     <property role="3GE5qa" value="Stmt" />
     <ref role="1M2myG" to="thnv:6N9oLy0LZt8" resolve="ReturnStmt" />
@@ -167,6 +157,20 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4zSQJ0bNMG7">
+    <property role="3GE5qa" value="Stmt" />
+    <ref role="1M2myG" to="thnv:mNK0fanA_o" resolve="AssignStmt" />
+  </node>
+  <node concept="1M2fIO" id="4zSQJ0bNNnG">
+    <property role="3GE5qa" value="Expr.Atom" />
+    <ref role="1M2myG" to="thnv:1N81XYtRk21" resolve="VariableReference" />
+    <node concept="1N5Pfh" id="4zSQJ0bNNnH" role="1Mr941">
+      <ref role="1N5Vy1" to="thnv:1N81XYtRmTF" resolve="decl" />
+      <node concept="1dDu$B" id="4zSQJ0bNNnJ" role="1N6uqs">
+        <ref role="1dDu$A" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
       </node>
     </node>
   </node>

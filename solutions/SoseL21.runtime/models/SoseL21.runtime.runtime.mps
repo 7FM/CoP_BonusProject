@@ -18,6 +18,7 @@
       </concept>
       <concept id="2073916285411665875" name="SoseL21.structure.BooleanType" flags="ng" index="21520c" />
       <concept id="2073916285411665872" name="SoseL21.structure.IntegerType" flags="ng" index="21520f" />
+      <concept id="2073916285411737756" name="SoseL21.structure.BooleanConstant" flags="ng" index="215kt3" />
       <concept id="2073916285411737738" name="SoseL21.structure.IntegerConstant" flags="ng" index="215ktl">
         <property id="2073916285411737739" name="value" index="215ktk" />
       </concept>
@@ -35,6 +36,7 @@
         <child id="2073916285411753034" name="returnType" index="215nIl" />
         <child id="4546918586676185801" name="parameters" index="irmMk" />
         <child id="4546918586676185781" name="body" index="irmNC" />
+        <child id="5258193289479974157" name="nonpure" index="13cNvX" />
       </concept>
       <concept id="2789534854021636270" name="SoseL21.structure.CompoundStmt" flags="ng" index="2CcoI5">
         <child id="2789534854021636273" name="stmts" index="2CcoIq" />
@@ -42,8 +44,14 @@
       <concept id="2789534854021881124" name="SoseL21.structure.CmpBinaryExpr" flags="ng" index="2Cfvof">
         <property id="2789534854021950013" name="op" index="2CeG4m" />
       </concept>
+      <concept id="5258193289479974138" name="SoseL21.structure.nonpure" flags="ng" index="13cNoa" />
+      <concept id="410883113533466968" name="SoseL21.structure.AssignStmt" flags="ng" index="3fVq_r">
+        <child id="410883113533466971" name="lhs" index="3fVq_o" />
+        <child id="410883113533466973" name="rhs" index="3fVq_u" />
+      </concept>
       <concept id="410883113532186628" name="SoseL21.structure.ClassDefinition" flags="ng" index="3fYi07">
         <child id="410883113532196495" name="funcs" index="3fYcqc" />
+        <child id="410883113532199721" name="vars" index="3fYdcE" />
       </concept>
       <concept id="410883113532351284" name="SoseL21.structure.IFuncCall" flags="ng" index="3fZEcR">
         <reference id="410883113532351294" name="fdecl" index="3fZEcX" />
@@ -79,6 +87,14 @@
               </node>
             </node>
           </node>
+          <node concept="3fVq_r" id="4zSQJ0bOAui" role="2CcoIq">
+            <node concept="215ktu" id="4zSQJ0bOAuk" role="3fVq_o">
+              <ref role="215mAO" node="4zSQJ0bNn6Q" resolve="mut" />
+            </node>
+            <node concept="215ktl" id="4zSQJ0bOAuw" role="3fVq_u">
+              <property role="215ktk" value="22" />
+            </node>
+          </node>
           <node concept="3G3Dhg" id="4zSQJ0bKR_U" role="2CcoIq">
             <node concept="215ktu" id="4zSQJ0bKRA0" role="3G3Dhj">
               <ref role="215mAO" node="4zSQJ0bKR_z" resolve="test" />
@@ -86,10 +102,23 @@
           </node>
         </node>
         <node concept="21520c" id="4zSQJ0bKRA2" role="215nIl" />
+        <node concept="13cNoa" id="4zSQJ0bNn8m" role="13cNvX" />
+      </node>
+      <node concept="215202" id="4zSQJ0bNn6Q" role="3fYdcE">
+        <property role="TrG5h" value="mut" />
+        <node concept="21520f" id="4zSQJ0bNn6U" role="13gggO" />
+        <node concept="215ktl" id="4zSQJ0bNn79" role="215hL2">
+          <property role="215ktk" value="0" />
+        </node>
       </node>
     </node>
     <node concept="3fYi07" id="4zSQJ0bC99m" role="1U4Uas">
       <property role="TrG5h" value="Another" />
+      <node concept="215202" id="4zSQJ0bOh$Z" role="3fYdcE">
+        <property role="TrG5h" value="test" />
+        <node concept="21520c" id="4zSQJ0bOh_3" role="13gggO" />
+        <node concept="215kt3" id="4zSQJ0bOh_s" role="215hL2" />
+      </node>
       <node concept="irmNQ" id="4zSQJ0bC99F" role="3fYcqc">
         <property role="TrG5h" value="test" />
         <node concept="irmMs" id="4zSQJ0bLQGe" role="irmMk">
