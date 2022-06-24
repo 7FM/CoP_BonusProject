@@ -939,7 +939,7 @@
     </node>
     <node concept="1YaCAy" id="4zSQJ0bFaCH" role="1YuTPh">
       <property role="TrG5h" value="sf" />
-      <ref role="1YaFvo" to="thnv:mNK0fajmda" resolve="StaticFuncCall" />
+      <ref role="1YaFvo" to="thnv:mNK0fajmda" resolve="FuncCall" />
     </node>
   </node>
 </model>

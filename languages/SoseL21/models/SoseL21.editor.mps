@@ -553,7 +553,7 @@
   </node>
   <node concept="24kQdi" id="6MwYoBOZW_I">
     <property role="3GE5qa" value="Func.Call" />
-    <ref role="1XX52x" to="thnv:mNK0fajmda" resolve="StaticFuncCall" />
+    <ref role="1XX52x" to="thnv:mNK0fajmda" resolve="FuncCall" />
     <node concept="3EZMnI" id="4zSQJ0bBTHl" role="2wV5jI">
       <node concept="l2Vlx" id="4zSQJ0bBTHm" role="2iSdaV" />
       <node concept="1iCGBv" id="4zSQJ0bBTHp" role="3EZMnx">

@@ -40,9 +40,6 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-      <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
-        <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
-      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -199,18 +196,8 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -706,7 +693,17 @@
                 <node concept="TvHiN" id="mNK0fanFZj" role="2Oq$k0" />
                 <node concept="liA8E" id="mNK0fanHat" role="2OqNvi">
                   <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object)" resolve="put" />
-                  <node concept="oxGPV" id="mNK0fanHz6" role="37wK5m" />
+                  <node concept="2OqwBi" id="4zSQJ0bOUhP" role="37wK5m">
+                    <node concept="2OqwBi" id="4zSQJ0bOTNY" role="2Oq$k0">
+                      <node concept="oxGPV" id="mNK0fanHz6" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="4zSQJ0bOU7f" role="2OqNvi">
+                        <ref role="3Tt5mk" to="thnv:mNK0fanA_r" resolve="lhs" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="4zSQJ0bOUGb" role="2OqNvi">
+                      <ref role="3Tt5mk" to="thnv:1N81XYtRmTF" resolve="decl" />
+                    </node>
+                  </node>
                   <node concept="rqRoa" id="mNK0fanHYH" role="37wK5m">
                     <ref role="rqRob" to="thnv:mNK0fanA_t" resolve="rhs" />
                   </node>
@@ -726,29 +723,6 @@
       <node concept="3dA_Gj" id="53hTHeL_toG" role="3vQZUl">
         <node concept="9aQIb" id="53hTHeL_EHJ" role="3vcmbn">
           <node concept="3clFbS" id="53hTHeL_EHK" role="9aQI4">
-            <node concept="1X3_iC" id="mNK0famMap" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3cpWs8" id="$fAm9T4G7R" role="8Wnug">
-                <node concept="3cpWsn" id="$fAm9T4G7U" role="3cpWs9">
-                  <property role="TrG5h" value="env" />
-                  <node concept="2OqwBi" id="$fAm9T4GPc" role="33vP2m">
-                    <node concept="2OqwBi" id="$fAm9T4GBy" role="2Oq$k0">
-                      <node concept="zxFAY" id="$fAm9T4GxI" role="2Oq$k0" />
-                      <node concept="2OwXpG" id="$fAm9T4GHD" role="2OqNvi">
-                        <ref role="2Oxat5" to="2ahs:3FW9mgpuZs$" resolve="context" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="$fAm9T4H8Q" role="2OqNvi">
-                      <ref role="37wK5l" to="2ahs:2X4$XGmeh8R" resolve="getEnvironment" />
-                    </node>
-                  </node>
-                  <node concept="3uibUv" id="$fAm9T4HeO" role="1tU5fm">
-                    <ref role="3uigEE" to="2ahs:7F2vPZ3KyDX" resolve="IEnvironment" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs6" id="53hTHeL__jd" role="3cqZAp">
               <node concept="2OqwBi" id="$fAm9T4Isp" role="3cqZAk">
                 <node concept="TvHiN" id="mNK0famOMh" role="2Oq$k0" />
@@ -1032,7 +1006,7 @@
     </node>
     <node concept="qq9P1" id="4zSQJ0bKU4R" role="qq9xR">
       <property role="2TnfIJ" value="true" />
-      <ref role="qq9wM" to="thnv:mNK0fajmda" resolve="StaticFuncCall" />
+      <ref role="qq9wM" to="thnv:mNK0fajmda" resolve="FuncCall" />
       <node concept="3dA_Gj" id="4zSQJ0bKWbG" role="3vQZUl">
         <node concept="9aQIb" id="4zSQJ0bKWbI" role="3vcmbn">
           <node concept="3clFbS" id="4zSQJ0bKWbK" role="9aQI4">

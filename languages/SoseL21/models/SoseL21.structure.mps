@@ -581,7 +581,7 @@
   <node concept="1TIwiD" id="mNK0fajmda">
     <property role="EcuMT" value="410883113532351306" />
     <property role="3GE5qa" value="Func.Call" />
-    <property role="TrG5h" value="StaticFuncCall" />
+    <property role="TrG5h" value="FuncCall" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="mNK0fajmdb" role="PzmwI">
       <ref role="PrY4T" node="mNK0fajmcR" resolve="IFuncCall" />

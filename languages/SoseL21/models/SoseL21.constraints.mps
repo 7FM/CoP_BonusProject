@@ -117,7 +117,7 @@
   </node>
   <node concept="1M2fIO" id="4zSQJ0bBTN8">
     <property role="3GE5qa" value="Func.Call" />
-    <ref role="1M2myG" to="thnv:mNK0fajmda" resolve="StaticFuncCall" />
+    <ref role="1M2myG" to="thnv:mNK0fajmda" resolve="FuncCall" />
     <node concept="1N5Pfh" id="4zSQJ0bBUcp" role="1Mr941">
       <ref role="1N5Vy1" to="thnv:4zSQJ0bBTHe" resolve="clazz" />
       <node concept="1dDu$B" id="4zSQJ0bBUdf" role="1N6uqs">
