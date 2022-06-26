@@ -117,6 +117,7 @@
         <child id="2073916285411753034" name="returnType" index="215nIl" />
         <child id="4546918586676185801" name="parameters" index="irmMk" />
         <child id="4546918586676185781" name="body" index="irmNC" />
+        <child id="3882654571446664625" name="independent" index="31vwxN" />
       </concept>
       <concept id="5025672626298131517" name="SoseL21.structure.ArithBinaryExpr" flags="ng" index="qmlat">
         <property id="5025672626298131518" name="op" index="qmlau" />
@@ -135,6 +136,7 @@
       <concept id="485317696637468474" name="SoseL21.structure.CallStmt" flags="ng" index="2DXkV_">
         <child id="485317696637468477" name="call" index="2DXkVy" />
       </concept>
+      <concept id="3882654571446664613" name="SoseL21.structure.independent" flags="ng" index="31vwxB" />
       <concept id="9201035665121118240" name="SoseL21.structure.UnitType" flags="ng" index="1ezyOg" />
       <concept id="410883113532186628" name="SoseL21.structure.ClassDefinition" flags="ng" index="3fYi07">
         <child id="410883113532196495" name="funcs" index="3fYcqc" />
@@ -394,6 +396,7 @@
               </node>
             </node>
             <node concept="21520f" id="qWctYJaVGk" role="215nIl" />
+            <node concept="31vwxB" id="3nxXsbOG9LT" role="31vwxN" />
           </node>
         </node>
       </node>

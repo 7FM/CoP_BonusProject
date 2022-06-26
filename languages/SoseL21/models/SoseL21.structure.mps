@@ -202,6 +202,9 @@
     <node concept="PrWs8" id="2qQqMIeyRf5" role="PzmwI">
       <ref role="PrY4T" node="2qQqMIexY2D" resolve="IStmt" />
     </node>
+    <node concept="PrWs8" id="30ecpjyGu7G" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3WpT_OHt8EK">
     <property role="EcuMT" value="4546918586676185776" />
@@ -224,6 +227,12 @@
       <property role="20kJfa" value="parameters" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3WpT_OHt8F1" resolve="FunctionParameter" />
+    </node>
+    <node concept="1TJgyj" id="3nxXsbOBZQL" role="1TKVEi">
+      <property role="IQ2ns" value="3882654571446664625" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="independent" />
+      <ref role="20lvS9" node="3nxXsbOBZQ_" resolve="independent" />
     </node>
     <node concept="1TJgyj" id="4zSQJ0bMYOd" role="1TKVEi">
       <property role="IQ2ns" value="5258193289479974157" />
@@ -801,6 +810,13 @@
       <property role="20kJfa" value="call" />
       <ref role="20lvS9" node="mNK0fajmcR" resolve="IFuncCall" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="3nxXsbOBZQ_">
+    <property role="EcuMT" value="3882654571446664613" />
+    <property role="3GE5qa" value="Func" />
+    <property role="TrG5h" value="independent" />
+    <property role="34LRSv" value="independent" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 
