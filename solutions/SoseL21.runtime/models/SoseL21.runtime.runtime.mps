@@ -33,11 +33,13 @@
         <child id="2073916285411753034" name="returnType" index="215nIl" />
         <child id="4546918586676185801" name="parameters" index="irmMk" />
         <child id="4546918586676185781" name="body" index="irmNC" />
+        <child id="3882654571446664625" name="independent" index="31vwxN" />
         <child id="5258193289479974157" name="nonpure" index="13cNvX" />
       </concept>
       <concept id="5025672626298131517" name="SoseL21.structure.ArithBinaryExpr" flags="ng" index="qmlat">
         <property id="5025672626298131518" name="op" index="qmlau" />
       </concept>
+      <concept id="7110675044797436644" name="SoseL21.structure.Type" flags="ng" index="sNeez" />
       <concept id="2789534854021636270" name="SoseL21.structure.CompoundStmt" flags="ng" index="2CcoI5">
         <child id="2789534854021636273" name="stmts" index="2CcoIq" />
       </concept>
@@ -70,6 +72,7 @@
       <concept id="485317696637468474" name="SoseL21.structure.CallStmt" flags="ng" index="2DXkV_">
         <child id="485317696637468477" name="call" index="2DXkVy" />
       </concept>
+      <concept id="3882654571446664613" name="SoseL21.structure.independent" flags="ng" index="31vwxB" />
       <concept id="5258193289479974138" name="SoseL21.structure.nonpure" flags="ng" index="13cNoa" />
       <concept id="9201035665121118240" name="SoseL21.structure.UnitType" flags="ng" index="1ezyOg" />
       <concept id="410883113533466968" name="SoseL21.structure.AssignStmt" flags="ng" index="3fVq_r">
@@ -300,7 +303,7 @@
       <node concept="215202" id="30ecpjyDBrV" role="3fYdcE">
         <property role="TrG5h" value="next" />
         <node concept="2Dyk1b" id="30ecpjyDBs5" role="2DEAUM">
-          <ref role="2Dyk1a" node="30ecpjyDBrk" resolve="ListElement" />
+          <ref role="2Dyk1a" node="30ecpjyDBrk" resolve="LinkedList" />
         </node>
       </node>
       <node concept="irmNQ" id="30ecpjyDBs8" role="3fYcqc">
@@ -320,7 +323,7 @@
         <node concept="irmMs" id="30ecpjyDBsg" role="irmMk">
           <property role="TrG5h" value="n" />
           <node concept="2Dyk1b" id="30ecpjyDBsk" role="13gggR">
-            <ref role="2Dyk1a" node="30ecpjyDBrk" resolve="ListElement" />
+            <ref role="2Dyk1a" node="30ecpjyDBrk" resolve="LinkedList" />
           </node>
         </node>
         <node concept="13cNoa" id="30ecpjyGqJF" role="13cNvX" />
@@ -349,6 +352,88 @@
           </node>
         </node>
         <node concept="21520f" id="30ecpjyGu1M" role="215nIl" />
+      </node>
+    </node>
+  </node>
+  <node concept="hqTRr" id="QbcTffF0wB">
+    <property role="TrG5h" value="test" />
+    <node concept="3fYi07" id="QbcTffF0wC" role="1U4Uas">
+      <property role="TrG5h" value="Main" />
+      <node concept="irmNQ" id="QbcTffF0wD" role="3fYcqc">
+        <property role="TrG5h" value="main" />
+        <node concept="irmNH" id="QbcTffF0wE" role="irmNC">
+          <node concept="2DEAUN" id="QbcTffF0ym" role="2CcoIq">
+            <property role="TrG5h" value="decl1" />
+            <node concept="2DyjA2" id="QbcTffF0yv" role="2DEAUL">
+              <node concept="2Dyk1b" id="QbcTffF0yx" role="2Dyk1M">
+                <ref role="2Dyk1a" node="QbcTffF0x1" resolve="IntRef" />
+              </node>
+            </node>
+            <node concept="2Dyk1b" id="QbcTffF0ys" role="2DEAUM">
+              <ref role="2Dyk1a" node="QbcTffF0x1" resolve="IntRef" />
+            </node>
+          </node>
+          <node concept="2DXkV_" id="QbcTffF0zg" role="2CcoIq">
+            <node concept="2DwsNc" id="QbcTffF0zr" role="2DXkVy">
+              <ref role="3fZEcX" node="QbcTffF0xi" resolve="setI" />
+              <node concept="215ktu" id="QbcTffF0zs" role="2DwER_">
+                <ref role="215mAO" node="QbcTffF0ym" resolve="decl1" />
+              </node>
+              <node concept="215ktl" id="QbcTffF0zv" role="3fZEd0">
+                <property role="215ktk" value="42" />
+              </node>
+            </node>
+          </node>
+          <node concept="3G3Dhg" id="QbcTffF0yF" role="2CcoIq">
+            <node concept="2DwsNc" id="QbcTffF0zD" role="3G3Dhj">
+              <ref role="3fZEcX" node="QbcTffF0xU" resolve="getI" />
+              <node concept="215ktu" id="QbcTffF0zE" role="2DwER_">
+                <ref role="215mAO" node="QbcTffF0ym" resolve="decl1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="31vwxB" id="QbcTffF0wJ" role="31vwxN" />
+        <node concept="21520f" id="QbcTffF0zM" role="215nIl" />
+      </node>
+    </node>
+    <node concept="3fYi07" id="QbcTffF0x1" role="1U4Uas">
+      <property role="TrG5h" value="IntRef" />
+      <node concept="215202" id="QbcTffF0xe" role="3fYdcE">
+        <property role="TrG5h" value="i" />
+        <node concept="sNeez" id="QbcTffF0xf" role="2DEAUM" />
+      </node>
+      <node concept="irmNQ" id="QbcTffF0xi" role="3fYcqc">
+        <property role="TrG5h" value="setI" />
+        <node concept="irmNH" id="QbcTffF0xj" role="irmNC">
+          <node concept="3fVq_r" id="QbcTffF0x$" role="2CcoIq">
+            <node concept="215ktu" id="QbcTffF0x_" role="3fVq_o">
+              <ref role="215mAO" node="QbcTffF0xe" resolve="i" />
+            </node>
+            <node concept="215ktu" id="QbcTffF0xE" role="3fVq_u">
+              <ref role="215mAO" node="QbcTffF0xo" resolve="v" />
+            </node>
+          </node>
+          <node concept="3G3Dhg" id="QbcTffF0xM" role="2CcoIq" />
+        </node>
+        <node concept="1ezyOg" id="QbcTffF0yf" role="215nIl" />
+        <node concept="irmMs" id="QbcTffF0xo" role="irmMk">
+          <property role="TrG5h" value="v" />
+          <node concept="21520f" id="QbcTffF0xx" role="13gggR" />
+        </node>
+        <node concept="13cNoa" id="QbcTffF0xS" role="13cNvX" />
+      </node>
+      <node concept="irmNQ" id="QbcTffF0xU" role="3fYcqc">
+        <property role="TrG5h" value="getI" />
+        <node concept="irmNH" id="QbcTffF0xV" role="irmNC">
+          <node concept="3G3Dhg" id="QbcTffF0yi" role="2CcoIq">
+            <node concept="215ktu" id="QbcTffF0yk" role="3G3Dhj">
+              <ref role="215mAO" node="QbcTffF0xe" resolve="i" />
+            </node>
+          </node>
+        </node>
+        <node concept="21520f" id="QbcTffF0yc" role="215nIl" />
+        <node concept="13cNoa" id="QbcTffF0ya" role="13cNvX" />
       </node>
     </node>
   </node>

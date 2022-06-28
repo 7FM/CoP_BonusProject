@@ -378,7 +378,7 @@
                   </node>
                   <node concept="3fZEd9" id="qWctYJaVGP" role="2DAVXH">
                     <ref role="13pO6Y" node="4zSQJ0bC99m" resolve="Algorithms" />
-                    <ref role="3fZEcX" node="qWctYJaVFE" resolve="gcd2" />
+                    <ref role="3fZEcX" node="qWctYJaVFE" resolve="gcd" />
                     <node concept="215ktu" id="qWctYJaVGS" role="3fZEd0">
                       <ref role="215mAO" node="qWctYJaVGe" resolve="b" />
                     </node>
