@@ -818,5 +818,53 @@
     <property role="34LRSv" value="independent" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
+  <node concept="PlHQZ" id="QbcTffF3Td">
+    <property role="EcuMT" value="975930454193225293" />
+    <property role="TrG5h" value="IAssertion" />
+    <property role="3GE5qa" value="Assert" />
+    <node concept="1TJgyi" id="QbcTffF3TC" role="1TKVEl">
+      <property role="IQ2nx" value="975930454193225320" />
+      <property role="TrG5h" value="expect" />
+      <ref role="AX2Wp" node="QbcTffF3Th" resolve="Expectation" />
+    </node>
+    <node concept="PrWs8" id="QbcTffHWvM" role="PrDN$">
+      <ref role="PrY4T" node="2qQqMIexY2D" resolve="IStmt" />
+    </node>
+    <node concept="PrWs8" id="QbcTffLNjp" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="QbcTffF3Te">
+    <property role="EcuMT" value="975930454193225294" />
+    <property role="3GE5qa" value="Assert" />
+    <property role="TrG5h" value="AssertTrue" />
+    <property role="34LRSv" value="assertTrue" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="QbcTffF3TH" role="1TKVEi">
+      <property role="IQ2ns" value="975930454193225325" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="boolExpr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2qQqMIeyTO$" resolve="CmpBinaryExpr" />
+    </node>
+    <node concept="PrWs8" id="QbcTffGbKd" role="PzmwI">
+      <ref role="PrY4T" node="QbcTffF3Td" resolve="IAssertion" />
+    </node>
+  </node>
+  <node concept="25R3W" id="QbcTffF3Th">
+    <property role="3F6X1D" value="975930454193225297" />
+    <property role="3GE5qa" value="Assert" />
+    <property role="TrG5h" value="Expectation" />
+    <node concept="25R33" id="QbcTffF3Tj" role="25R1y">
+      <property role="3tVfz5" value="975930454193225299" />
+      <property role="TrG5h" value="PASS" />
+      <property role="1L1pqM" value="PASS" />
+    </node>
+    <node concept="25R33" id="QbcTffF3Ts" role="25R1y">
+      <property role="3tVfz5" value="975930454193225308" />
+      <property role="TrG5h" value="XFAIL" />
+      <property role="1L1pqM" value="XFAIL" />
+    </node>
+  </node>
 </model>
 
