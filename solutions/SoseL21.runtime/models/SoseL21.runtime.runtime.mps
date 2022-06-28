@@ -39,7 +39,6 @@
       <concept id="5025672626298131517" name="SoseL21.structure.ArithBinaryExpr" flags="ng" index="qmlat">
         <property id="5025672626298131518" name="op" index="qmlau" />
       </concept>
-      <concept id="7110675044797436644" name="SoseL21.structure.Type" flags="ng" index="sNeez" />
       <concept id="2789534854021636270" name="SoseL21.structure.CompoundStmt" flags="ng" index="2CcoI5">
         <child id="2789534854021636273" name="stmts" index="2CcoIq" />
       </concept>
@@ -291,7 +290,9 @@
             </node>
           </node>
         </node>
-        <node concept="21520f" id="5YIJbiY9Lv" role="215nIl" />
+        <node concept="2Dyk1b" id="19WC2qVIKqs" role="215nIl">
+          <ref role="2Dyk1a" node="30ecpjyDBrk" resolve="LinkedList" />
+        </node>
       </node>
     </node>
     <node concept="3fYi07" id="30ecpjyDBrk" role="1U4Uas">
@@ -432,7 +433,7 @@
       <property role="TrG5h" value="IntRef" />
       <node concept="215202" id="QbcTffF0xe" role="3fYdcE">
         <property role="TrG5h" value="i" />
-        <node concept="sNeez" id="QbcTffF0xf" role="2DEAUM" />
+        <node concept="21520f" id="19WC2qVIS8o" role="2DEAUM" />
       </node>
       <node concept="irmNQ" id="QbcTffF0xi" role="3fYcqc">
         <property role="TrG5h" value="setI" />
