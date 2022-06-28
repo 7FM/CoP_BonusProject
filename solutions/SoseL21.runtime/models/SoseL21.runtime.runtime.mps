@@ -290,9 +290,7 @@
             </node>
           </node>
         </node>
-        <node concept="2Dyk1b" id="19WC2qVIKqs" role="215nIl">
-          <ref role="2Dyk1a" node="30ecpjyDBrk" resolve="LinkedList" />
-        </node>
+        <node concept="21520f" id="1y5aitcVY0$" role="215nIl" />
       </node>
     </node>
     <node concept="3fYi07" id="30ecpjyDBrk" role="1U4Uas">
