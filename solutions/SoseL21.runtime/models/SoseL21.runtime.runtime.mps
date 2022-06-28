@@ -39,7 +39,6 @@
       <concept id="5025672626298131517" name="SoseL21.structure.ArithBinaryExpr" flags="ng" index="qmlat">
         <property id="5025672626298131518" name="op" index="qmlau" />
       </concept>
-      <concept id="7110675044797436644" name="SoseL21.structure.Type" flags="ng" index="sNeez" />
       <concept id="2789534854021636270" name="SoseL21.structure.CompoundStmt" flags="ng" index="2CcoI5">
         <child id="2789534854021636273" name="stmts" index="2CcoIq" />
       </concept>
@@ -73,12 +72,6 @@
         <child id="485317696637468477" name="call" index="2DXkVy" />
       </concept>
       <concept id="3882654571446664613" name="SoseL21.structure.independent" flags="ng" index="31vwxB" />
-      <concept id="975930454193225294" name="SoseL21.structure.AssertTrue" flags="ng" index="329KRt">
-        <child id="975930454193225325" name="boolExpr" index="329KRY" />
-      </concept>
-      <concept id="975930454193225293" name="SoseL21.structure.IAssertion" flags="ng" index="329KRu">
-        <property id="975930454193225320" name="expect" index="329KRV" />
-      </concept>
       <concept id="5258193289479974138" name="SoseL21.structure.nonpure" flags="ng" index="13cNoa" />
       <concept id="9201035665121118240" name="SoseL21.structure.UnitType" flags="ng" index="1ezyOg" />
       <concept id="410883113533466968" name="SoseL21.structure.AssignStmt" flags="ng" index="3fVq_r">
@@ -471,72 +464,6 @@
         </node>
         <node concept="21520f" id="QbcTffF0yc" role="215nIl" />
         <node concept="13cNoa" id="QbcTffF0ya" role="13cNvX" />
-      </node>
-    </node>
-  </node>
-  <node concept="hqTRr" id="QbcTffHWvf">
-    <property role="TrG5h" value="testassert" />
-    <node concept="3fYi07" id="QbcTffHWvg" role="1U4Uas">
-      <property role="TrG5h" value="AssertMain" />
-      <node concept="irmNQ" id="QbcTffHWvl" role="3fYcqc">
-        <property role="TrG5h" value="main" />
-        <node concept="irmNH" id="QbcTffHWvm" role="irmNC">
-          <node concept="329KRt" id="QbcTffMv8z" role="2CcoIq">
-            <property role="TrG5h" value="1st" />
-            <property role="329KRV" value="QbcTffF3Tj/PASS" />
-            <node concept="2Cfvof" id="QbcTffMv8_" role="329KRY">
-              <property role="2CeG4m" value="2qQqMIeyTO9/eq" />
-              <node concept="215ktl" id="QbcTffMv8Y" role="3YPxz5">
-                <property role="215ktk" value="1" />
-              </node>
-              <node concept="215ktl" id="QbcTffMv91" role="3YPxz7">
-                <property role="215ktk" value="1" />
-              </node>
-            </node>
-          </node>
-          <node concept="329KRt" id="QbcTffMv9C" role="2CcoIq">
-            <property role="TrG5h" value="2nd" />
-            <property role="329KRV" value="QbcTffF3Ts/XFAIL" />
-            <node concept="2Cfvof" id="QbcTffMv9D" role="329KRY">
-              <property role="2CeG4m" value="2qQqMIeyTO9/eq" />
-              <node concept="215ktl" id="QbcTffMv9E" role="3YPxz5">
-                <property role="215ktk" value="1" />
-              </node>
-              <node concept="215ktl" id="QbcTffMv9F" role="3YPxz7">
-                <property role="215ktk" value="2" />
-              </node>
-            </node>
-          </node>
-          <node concept="329KRt" id="QbcTffMvao" role="2CcoIq">
-            <property role="TrG5h" value="3rd" />
-            <property role="329KRV" value="QbcTffF3Tj/PASS" />
-            <node concept="2Cfvof" id="QbcTffMvap" role="329KRY">
-              <property role="2CeG4m" value="2qQqMIeyTO9/eq" />
-              <node concept="215ktl" id="QbcTffMvaq" role="3YPxz5">
-                <property role="215ktk" value="1" />
-              </node>
-              <node concept="215ktl" id="QbcTffMvar" role="3YPxz7">
-                <property role="215ktk" value="2" />
-              </node>
-            </node>
-          </node>
-          <node concept="329KRt" id="QbcTffMvbg" role="2CcoIq">
-            <property role="TrG5h" value="4th" />
-            <property role="329KRV" value="QbcTffF3Ts/XFAIL" />
-            <node concept="2Cfvof" id="QbcTffMvbh" role="329KRY">
-              <property role="2CeG4m" value="2qQqMIeyTO9/eq" />
-              <node concept="215ktl" id="QbcTffMvbi" role="3YPxz5">
-                <property role="215ktk" value="1" />
-              </node>
-              <node concept="215ktl" id="QbcTffMvbj" role="3YPxz7">
-                <property role="215ktk" value="1" />
-              </node>
-            </node>
-          </node>
-          <node concept="3G3Dhg" id="QbcTffHWvC" role="2CcoIq" />
-        </node>
-        <node concept="sNeez" id="QbcTffHWvn" role="215nIl" />
-        <node concept="31vwxB" id="QbcTffHWvr" role="31vwxN" />
       </node>
     </node>
   </node>

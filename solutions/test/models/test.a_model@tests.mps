@@ -11,6 +11,9 @@
   <imports>
     <import index="2ahs" ref="r:ea6cf71d-29d2-478d-8027-a9f4a4de53c4(com.mbeddr.mpsutil.interpreter.rt)" />
     <import index="3guq" ref="r:42139a70-b86e-45ad-a640-3360842d65af(SoseL21.runtime.runtime)" />
+    <import index="sytk" ref="r:558b0ebf-465b-45e5-965b-4f80dc257a92(SoseL21.intentions)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -42,6 +45,12 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
@@ -54,6 +63,7 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -62,6 +72,9 @@
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -128,6 +141,7 @@
       <concept id="5025672626298131517" name="SoseL21.structure.ArithBinaryExpr" flags="ng" index="qmlat">
         <property id="5025672626298131518" name="op" index="qmlau" />
       </concept>
+      <concept id="7110675044797436644" name="SoseL21.structure.Type" flags="ng" index="sNeez" />
       <concept id="2789534854021636270" name="SoseL21.structure.CompoundStmt" flags="ng" index="2CcoI5">
         <child id="2789534854021636273" name="stmts" index="2CcoIq" />
       </concept>
@@ -166,6 +180,12 @@
         <child id="485317696637468477" name="call" index="2DXkVy" />
       </concept>
       <concept id="3882654571446664613" name="SoseL21.structure.independent" flags="ng" index="31vwxB" />
+      <concept id="975930454193225294" name="SoseL21.structure.AssertTrue" flags="ng" index="329KRt">
+        <child id="975930454193225325" name="boolExpr" index="329KRY" />
+      </concept>
+      <concept id="975930454193225293" name="SoseL21.structure.IAssertion" flags="ng" index="329KRu">
+        <property id="975930454193225320" name="expect" index="329KRV" />
+      </concept>
       <concept id="5258193289479974138" name="SoseL21.structure.nonpure" flags="ng" index="13cNoa" />
       <concept id="9201035665121118240" name="SoseL21.structure.UnitType" flags="ng" index="1ezyOg" />
       <concept id="410883113533466968" name="SoseL21.structure.AssignStmt" flags="ng" index="3fVq_r">
@@ -735,6 +755,93 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="QbcTffPfQG">
+    <property role="TrG5h" value="Assertions" />
+    <node concept="1LZb2c" id="QbcTffPfS2" role="1SL9yI">
+      <property role="TrG5h" value="eval" />
+      <node concept="3cqZAl" id="QbcTffPfS3" role="3clF45" />
+      <node concept="3clFbS" id="QbcTffPfS7" role="3clF47">
+        <node concept="3cpWs8" id="QbcTffPfWa" role="3cqZAp">
+          <node concept="3cpWsn" id="QbcTffPfWd" role="3cpWs9">
+            <property role="TrG5h" value="msg" />
+            <node concept="17QB3L" id="QbcTffPfW9" role="1tU5fm" />
+            <node concept="2YIFZM" id="QbcTffPfU4" role="33vP2m">
+              <ref role="37wK5l" to="sytk:QbcTffINfo" resolve="evalAssertions" />
+              <ref role="1Pybhc" to="sytk:7YkubbgDd4V" resolve="EvalHelper" />
+              <node concept="3xONca" id="QbcTffPCL3" role="37wK5m">
+                <ref role="3xOPvv" node="QbcTffPCw_" resolve="whateverLabel" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="QbcTffPyFd" role="3cqZAp">
+          <node concept="2OqwBi" id="QbcTffPz6K" role="3clFbG">
+            <node concept="10M0yZ" id="QbcTffPyLh" role="2Oq$k0">
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+            </node>
+            <node concept="liA8E" id="QbcTffPzBp" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="37vLTw" id="QbcTffPzCC" role="37wK5m">
+                <ref role="3cqZAo" node="QbcTffPfWd" resolve="msg" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="QbcTffPgMZ" role="3cqZAp">
+          <node concept="2OqwBi" id="QbcTffPgcx" role="1gVkn0">
+            <node concept="37vLTw" id="QbcTffPfYc" role="2Oq$k0">
+              <ref role="3cqZAo" node="QbcTffPfWd" resolve="msg" />
+            </node>
+            <node concept="liA8E" id="QbcTffPgyN" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+              <node concept="Xl_RD" id="QbcTffPgzI" role="37wK5m">
+                <property role="Xl_RC" value="1 pass" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="QbcTffPfQV" role="1SKRRt">
+      <node concept="hqTRr" id="QbcTffPfQT" role="1qenE9">
+        <property role="TrG5h" value="assertions" />
+        <node concept="3fYi07" id="QbcTffPCvG" role="1U4Uas">
+          <property role="TrG5h" value="AssertC" />
+          <node concept="irmNQ" id="QbcTffPCvI" role="3fYcqc">
+            <property role="TrG5h" value="main" />
+            <node concept="irmNH" id="QbcTffPCvJ" role="irmNC">
+              <node concept="329KRt" id="QbcTffPCvQ" role="2CcoIq">
+                <property role="TrG5h" value="tas" />
+                <property role="329KRV" value="QbcTffF3Tj/PASS" />
+                <node concept="2Cfvof" id="QbcTffPCvR" role="329KRY">
+                  <property role="2CeG4m" value="2qQqMIeyTO9/eq" />
+                  <node concept="qmlat" id="QbcTffPCvY" role="3YPxz5">
+                    <property role="qmlau" value="4mYLE1vTTgO/mul" />
+                    <node concept="215ktl" id="QbcTffPCw5" role="3YPxz5">
+                      <property role="215ktk" value="2" />
+                    </node>
+                    <node concept="215ktl" id="QbcTffPCw8" role="3YPxz7">
+                      <property role="215ktk" value="5" />
+                    </node>
+                  </node>
+                  <node concept="215ktl" id="QbcTffPCwb" role="3YPxz7">
+                    <property role="215ktk" value="10" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3G3Dhg" id="QbcTffPCwm" role="2CcoIq" />
+            </node>
+            <node concept="sNeez" id="QbcTffPCvK" role="215nIl" />
+            <node concept="31vwxB" id="QbcTffPCvO" role="31vwxN" />
+          </node>
+          <node concept="3xLA65" id="QbcTffPCw_" role="lGtFl">
+            <property role="TrG5h" value="whateverLabel" />
           </node>
         </node>
       </node>
