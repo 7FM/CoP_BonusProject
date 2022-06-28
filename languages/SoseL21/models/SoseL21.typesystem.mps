@@ -6,6 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="thnv" ref="r:6a0fead8-79f9-450f-8764-f9435d176b3f(SoseL21.structure)" implicit="true" />
     <import index="6797" ref="r:b832a6a0-27f5-44a7-9f07-d79a948b83a6(SoseL21.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -1052,6 +1053,57 @@
     <property role="TrG5h" value="check_AssignStmt" />
     <property role="3GE5qa" value="Stmt" />
     <node concept="3clFbS" id="qWctYJ5Jya" role="18ibNy">
+      <node concept="3clFbJ" id="7WsT286YhJN" role="3cqZAp">
+        <node concept="3clFbS" id="7WsT286YhJP" role="3clFbx">
+          <node concept="2MkqsV" id="7WsT286Ynd9" role="3cqZAp">
+            <node concept="Xl_RD" id="7WsT286Yndo" role="2MkJ7o">
+              <property role="Xl_RC" value="rhs value type does not match the target variable type" />
+            </node>
+            <node concept="2OqwBi" id="7WsT286YnrS" role="1urrMF">
+              <node concept="1YBJjd" id="7WsT286YnhU" role="2Oq$k0">
+                <ref role="1YBMHb" node="qWctYJ5Jyc" resolve="assignStmt" />
+              </node>
+              <node concept="3TrEf2" id="7WsT286YobI" role="2OqNvi">
+                <ref role="3Tt5mk" to="thnv:mNK0fanA_t" resolve="rhs" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="7WsT286Yn6S" role="3clFbw">
+          <node concept="2OqwBi" id="7WsT286Yn6U" role="3fr31v">
+            <node concept="2OqwBi" id="7WsT286Yn6V" role="2Oq$k0">
+              <node concept="2OqwBi" id="7WsT286Yn6W" role="2Oq$k0">
+                <node concept="1YBJjd" id="7WsT286Yn6X" role="2Oq$k0">
+                  <ref role="1YBMHb" node="qWctYJ5Jyc" resolve="assignStmt" />
+                </node>
+                <node concept="3TrEf2" id="7WsT286Yn6Y" role="2OqNvi">
+                  <ref role="3Tt5mk" to="thnv:mNK0fanA_r" resolve="lhs" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="7WsT286Yn6Z" role="2OqNvi">
+                <ref role="37wK5l" to="6797:6aIcktYoE0J" resolve="getType" />
+              </node>
+            </node>
+            <node concept="liA8E" id="7WsT286Yn70" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
+              <node concept="2OqwBi" id="7WsT286Yn71" role="37wK5m">
+                <node concept="2OqwBi" id="7WsT286Yn72" role="2Oq$k0">
+                  <node concept="1YBJjd" id="7WsT286Yn73" role="2Oq$k0">
+                    <ref role="1YBMHb" node="qWctYJ5Jyc" resolve="assignStmt" />
+                  </node>
+                  <node concept="3TrEf2" id="7WsT286Yn74" role="2OqNvi">
+                    <ref role="3Tt5mk" to="thnv:mNK0fanA_t" resolve="rhs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="7WsT286Yn75" role="2OqNvi">
+                  <ref role="37wK5l" to="6797:6aIcktYoE0J" resolve="getType" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="19WC2qVIyg6" role="3cqZAp" />
       <node concept="3clFbJ" id="qWctYJ5Jyg" role="3cqZAp">
         <node concept="3fqX7Q" id="qWctYJ5LJ4" role="3clFbw">
           <node concept="2OqwBi" id="qWctYJ5LJ6" role="3fr31v">
