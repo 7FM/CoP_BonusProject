@@ -14,6 +14,7 @@
   <dependencies>
     <dependency reexport="false">bec6fdac-a76c-493f-8b6a-8246780534ab(SoseL21.interpreter)</dependency>
     <dependency reexport="false">735f86bc-17fb-4d1c-a664-82c2b8e8a34e(com.mbeddr.mpsutil.interpreter.rt)</dependency>
+    <dependency reexport="false">04c2ec43-3f21-414f-ac82-f810bba4b706(SoseL21.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:0ac8b603-2aed-4734-90af-66e24221a32e:SoseL21" version="0" />
@@ -31,6 +32,7 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="bec6fdac-a76c-493f-8b6a-8246780534ab(SoseL21.interpreter)" version="0" />
+    <module reference="04c2ec43-3f21-414f-ac82-f810bba4b706(SoseL21.runtime)" version="0" />
     <module reference="735f86bc-17fb-4d1c-a664-82c2b8e8a34e(com.mbeddr.mpsutil.interpreter.rt)" version="0" />
     <module reference="726886d1-ef90-4249-a08f-1e3ec23a7113(com.mbeddr.mpsutil.traceExplorer)" version="0" />
     <module reference="0321384f-9acc-4575-9fce-e9ea4091692a(test)" version="0" />
