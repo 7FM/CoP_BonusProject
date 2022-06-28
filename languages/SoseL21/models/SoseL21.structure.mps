@@ -177,7 +177,7 @@
       <property role="IQ2ns" value="2789534854021642505" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="init" />
-      <ref role="20lvS9" node="2qQqMIexY2D" resolve="IStmt" />
+      <ref role="20lvS9" node="mNK0fanA_o" resolve="AssignStmt" />
     </node>
     <node concept="1TJgyj" id="2qQqMIexZ$b" role="1TKVEi">
       <property role="IQ2ns" value="2789534854021642507" />
@@ -190,7 +190,7 @@
       <property role="IQ2ns" value="2789534854021642510" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="step" />
-      <ref role="20lvS9" node="2qQqMIexY2D" resolve="IStmt" />
+      <ref role="20lvS9" node="mNK0fanA_o" resolve="AssignStmt" />
     </node>
     <node concept="1TJgyj" id="2qQqMIexZ$i" role="1TKVEi">
       <property role="IQ2ns" value="2789534854021642514" />
