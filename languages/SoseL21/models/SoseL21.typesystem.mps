@@ -875,6 +875,48 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="5sAYgeSnFyT" role="3cqZAp" />
+      <node concept="3clFbJ" id="5sAYgeSnFF5" role="3cqZAp">
+        <node concept="3clFbS" id="5sAYgeSnFF7" role="3clFbx">
+          <node concept="2MkqsV" id="5sAYgeSnL2_" role="3cqZAp">
+            <node concept="Xl_RD" id="5sAYgeSnL2O" role="2MkJ7o">
+              <property role="Xl_RC" value="The main function has to be independent" />
+            </node>
+            <node concept="1YBJjd" id="5sAYgeSnL3z" role="1urrMF">
+              <ref role="1YBMHb" node="6N9oLy0NgwU" resolve="functionDeclaration" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="5sAYgeSnHX0" role="3clFbw">
+          <node concept="2OqwBi" id="5sAYgeSnJP$" role="3uHU7w">
+            <node concept="2OqwBi" id="5sAYgeSnJh5" role="2Oq$k0">
+              <node concept="1YBJjd" id="5sAYgeSnIRT" role="2Oq$k0">
+                <ref role="1YBMHb" node="6N9oLy0NgwU" resolve="functionDeclaration" />
+              </node>
+              <node concept="3TrEf2" id="5sAYgeSnJ_T" role="2OqNvi">
+                <ref role="3Tt5mk" to="thnv:3nxXsbOBZQL" resolve="independent" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="5sAYgeSnKOo" role="2OqNvi" />
+          </node>
+          <node concept="2OqwBi" id="5sAYgeSo044" role="3uHU7B">
+            <node concept="2OqwBi" id="5sAYgeSnFYN" role="2Oq$k0">
+              <node concept="1YBJjd" id="5sAYgeSnFM6" role="2Oq$k0">
+                <ref role="1YBMHb" node="6N9oLy0NgwU" resolve="functionDeclaration" />
+              </node>
+              <node concept="3TrcHB" id="5sAYgeSnGOc" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="liA8E" id="5sAYgeSo15r" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+              <node concept="Xl_RD" id="5sAYgeSo1pp" role="37wK5m">
+                <property role="Xl_RC" value="main" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="6N9oLy0NgwU" role="1YuTPh">
       <property role="TrG5h" value="functionDeclaration" />
