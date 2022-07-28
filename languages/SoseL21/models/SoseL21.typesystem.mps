@@ -651,6 +651,48 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="5sAYgeSnFyT" role="3cqZAp" />
+      <node concept="3clFbJ" id="5sAYgeSnFF5" role="3cqZAp">
+        <node concept="3clFbS" id="5sAYgeSnFF7" role="3clFbx">
+          <node concept="2MkqsV" id="5sAYgeSnL2_" role="3cqZAp">
+            <node concept="Xl_RD" id="5sAYgeSnL2O" role="2MkJ7o">
+              <property role="Xl_RC" value="The main function has to be independent" />
+            </node>
+            <node concept="1YBJjd" id="5sAYgeSnL3z" role="1urrMF">
+              <ref role="1YBMHb" node="6N9oLy0NgwU" resolve="functionDeclaration" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="5sAYgeSnHX0" role="3clFbw">
+          <node concept="2OqwBi" id="5sAYgeSnJP$" role="3uHU7w">
+            <node concept="2OqwBi" id="5sAYgeSnJh5" role="2Oq$k0">
+              <node concept="1YBJjd" id="5sAYgeSnIRT" role="2Oq$k0">
+                <ref role="1YBMHb" node="6N9oLy0NgwU" resolve="functionDeclaration" />
+              </node>
+              <node concept="3TrEf2" id="5sAYgeSnJ_T" role="2OqNvi">
+                <ref role="3Tt5mk" to="thnv:3nxXsbOBZQL" resolve="independent" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="5sAYgeSnKOo" role="2OqNvi" />
+          </node>
+          <node concept="2OqwBi" id="5sAYgeSo044" role="3uHU7B">
+            <node concept="2OqwBi" id="5sAYgeSnFYN" role="2Oq$k0">
+              <node concept="1YBJjd" id="5sAYgeSnFM6" role="2Oq$k0">
+                <ref role="1YBMHb" node="6N9oLy0NgwU" resolve="functionDeclaration" />
+              </node>
+              <node concept="3TrcHB" id="5sAYgeSnGOc" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="liA8E" id="5sAYgeSo15r" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+              <node concept="Xl_RD" id="5sAYgeSo1pp" role="37wK5m">
+                <property role="Xl_RC" value="main" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="6N9oLy0NgwU" role="1YuTPh">
       <property role="TrG5h" value="functionDeclaration" />
@@ -1544,118 +1586,6 @@
       <ref role="1YaFvo" to="thnv:qWctYJfvOj" resolve="InstanceCall" />
     </node>
   </node>
-  <node concept="18kY7G" id="7K0qjTudEdB">
-    <property role="TrG5h" value="check_ArithExpr" />
-    <property role="3GE5qa" value="Expr.Binary.Arith" />
-    <node concept="3clFbS" id="7K0qjTudEdC" role="18ibNy">
-      <node concept="3clFbJ" id="7K0qjTudEdI" role="3cqZAp">
-        <node concept="3fqX7Q" id="7K0qjTudEdJ" role="3clFbw">
-          <node concept="2OqwBi" id="7K0qjTudEdK" role="3fr31v">
-            <node concept="2OqwBi" id="7K0qjTudEdL" role="2Oq$k0">
-              <node concept="2OqwBi" id="7K0qjTudEdM" role="2Oq$k0">
-                <node concept="1YBJjd" id="7K0qjTudEdN" role="2Oq$k0">
-                  <ref role="1YBMHb" node="7K0qjTudEdE" resolve="arithBinaryExpr" />
-                </node>
-                <node concept="3TrEf2" id="7K0qjTudEdO" role="2OqNvi">
-                  <ref role="3Tt5mk" to="thnv:6JWzqQlaDlC" resolve="left" />
-                </node>
-              </node>
-              <node concept="2qgKlT" id="7K0qjTudEdP" role="2OqNvi">
-                <ref role="37wK5l" to="6797:6aIcktYoE0J" resolve="getType" />
-              </node>
-            </node>
-            <node concept="3O6GUB" id="7K0qjTudEdQ" role="2OqNvi">
-              <node concept="chp4Y" id="7K0qjTudEdR" role="3QVz_e">
-                <ref role="cht4Q" to="thnv:1N81XYtR2vg" resolve="IntegerType" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbS" id="7K0qjTudEdS" role="3clFbx">
-          <node concept="3cpWs8" id="7K0qjTudEdT" role="3cqZAp">
-            <node concept="3cpWsn" id="7K0qjTudEdU" role="3cpWs9">
-              <property role="TrG5h" value="err" />
-              <node concept="17QB3L" id="7K0qjTudEdV" role="1tU5fm" />
-              <node concept="3cpWs3" id="7K0qjTudEdW" role="33vP2m">
-                <node concept="2OqwBi" id="7K0qjTudEdX" role="3uHU7w">
-                  <node concept="2OqwBi" id="7K0qjTudEdY" role="2Oq$k0">
-                    <node concept="1YBJjd" id="7K0qjTudEdZ" role="2Oq$k0">
-                      <ref role="1YBMHb" node="7K0qjTudEdE" resolve="arithBinaryExpr" />
-                    </node>
-                    <node concept="3TrEf2" id="7K0qjTudEe0" role="2OqNvi">
-                      <ref role="3Tt5mk" to="thnv:6JWzqQlaDlC" resolve="left" />
-                    </node>
-                  </node>
-                  <node concept="2qgKlT" id="7K0qjTudEe1" role="2OqNvi">
-                    <ref role="37wK5l" to="6797:6aIcktYoE0J" resolve="getType" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="7K0qjTudEe2" role="3uHU7B">
-                  <property role="Xl_RC" value="Left operand must be an integer type! " />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2MkqsV" id="7K0qjTudEe3" role="3cqZAp">
-            <node concept="37vLTw" id="7K0qjTudEe4" role="2MkJ7o">
-              <ref role="3cqZAo" node="7K0qjTudEdU" resolve="err" />
-            </node>
-            <node concept="2OqwBi" id="7K0qjTudEe5" role="1urrMF">
-              <node concept="1YBJjd" id="7K0qjTudEe6" role="2Oq$k0">
-                <ref role="1YBMHb" node="7K0qjTudEdE" resolve="arithBinaryExpr" />
-              </node>
-              <node concept="3TrEf2" id="7K0qjTudEe7" role="2OqNvi">
-                <ref role="3Tt5mk" to="thnv:6JWzqQlaDlC" resolve="left" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbJ" id="7K0qjTudEe8" role="3cqZAp">
-        <node concept="3fqX7Q" id="7K0qjTudEe9" role="3clFbw">
-          <node concept="2OqwBi" id="7K0qjTudEea" role="3fr31v">
-            <node concept="2OqwBi" id="7K0qjTudEeb" role="2Oq$k0">
-              <node concept="2OqwBi" id="7K0qjTudEec" role="2Oq$k0">
-                <node concept="1YBJjd" id="7K0qjTudEed" role="2Oq$k0">
-                  <ref role="1YBMHb" node="7K0qjTudEdE" resolve="arithBinaryExpr" />
-                </node>
-                <node concept="3TrEf2" id="7K0qjTudEee" role="2OqNvi">
-                  <ref role="3Tt5mk" to="thnv:6JWzqQlaDlE" resolve="right" />
-                </node>
-              </node>
-              <node concept="2qgKlT" id="7K0qjTudEef" role="2OqNvi">
-                <ref role="37wK5l" to="6797:6aIcktYoE0J" resolve="getType" />
-              </node>
-            </node>
-            <node concept="3O6GUB" id="7K0qjTudEeg" role="2OqNvi">
-              <node concept="chp4Y" id="7K0qjTudEeh" role="3QVz_e">
-                <ref role="cht4Q" to="thnv:1N81XYtR2vg" resolve="IntegerType" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbS" id="7K0qjTudEei" role="3clFbx">
-          <node concept="2MkqsV" id="7K0qjTudEej" role="3cqZAp">
-            <node concept="Xl_RD" id="7K0qjTudEek" role="2MkJ7o">
-              <property role="Xl_RC" value="Right operand must be an integer type!" />
-            </node>
-            <node concept="2OqwBi" id="7K0qjTudEel" role="1urrMF">
-              <node concept="1YBJjd" id="7K0qjTudEem" role="2Oq$k0">
-                <ref role="1YBMHb" node="7K0qjTudEdE" resolve="arithBinaryExpr" />
-              </node>
-              <node concept="3TrEf2" id="7K0qjTudEen" role="2OqNvi">
-                <ref role="3Tt5mk" to="thnv:6JWzqQlaDlE" resolve="right" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="7K0qjTudEdE" role="1YuTPh">
-      <property role="TrG5h" value="arithBinaryExpr" />
-      <ref role="1YaFvo" to="thnv:7K0qjTudysP" resolve="ArithExpr" />
-    </node>
-  </node>
   <node concept="18kY7G" id="7K0qjTudFE3">
     <property role="TrG5h" value="check_CmpExpr" />
     <property role="3GE5qa" value="Expr.Binary.Cmp" />
@@ -1766,6 +1696,118 @@
     <node concept="1YaCAy" id="7K0qjTudFE6" role="1YuTPh">
       <property role="TrG5h" value="cmpBinaryExpr" />
       <ref role="1YaFvo" to="thnv:7K0qjTudy0M" resolve="CmpExpr" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="7K0qjTudEdB">
+    <property role="TrG5h" value="check_ArithExpr" />
+    <property role="3GE5qa" value="Expr.Binary.Arith" />
+    <node concept="3clFbS" id="7K0qjTudEdC" role="18ibNy">
+      <node concept="3clFbJ" id="7K0qjTudEdI" role="3cqZAp">
+        <node concept="3fqX7Q" id="7K0qjTudEdJ" role="3clFbw">
+          <node concept="2OqwBi" id="7K0qjTudEdK" role="3fr31v">
+            <node concept="2OqwBi" id="7K0qjTudEdL" role="2Oq$k0">
+              <node concept="2OqwBi" id="7K0qjTudEdM" role="2Oq$k0">
+                <node concept="1YBJjd" id="7K0qjTudEdN" role="2Oq$k0">
+                  <ref role="1YBMHb" node="7K0qjTudEdE" resolve="arithBinaryExpr" />
+                </node>
+                <node concept="3TrEf2" id="7K0qjTudEdO" role="2OqNvi">
+                  <ref role="3Tt5mk" to="thnv:6JWzqQlaDlC" resolve="left" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="7K0qjTudEdP" role="2OqNvi">
+                <ref role="37wK5l" to="6797:6aIcktYoE0J" resolve="getType" />
+              </node>
+            </node>
+            <node concept="3O6GUB" id="7K0qjTudEdQ" role="2OqNvi">
+              <node concept="chp4Y" id="7K0qjTudEdR" role="3QVz_e">
+                <ref role="cht4Q" to="thnv:1N81XYtR2vg" resolve="IntegerType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="7K0qjTudEdS" role="3clFbx">
+          <node concept="3cpWs8" id="7K0qjTudEdT" role="3cqZAp">
+            <node concept="3cpWsn" id="7K0qjTudEdU" role="3cpWs9">
+              <property role="TrG5h" value="err" />
+              <node concept="17QB3L" id="7K0qjTudEdV" role="1tU5fm" />
+              <node concept="3cpWs3" id="7K0qjTudEdW" role="33vP2m">
+                <node concept="2OqwBi" id="7K0qjTudEdX" role="3uHU7w">
+                  <node concept="2OqwBi" id="7K0qjTudEdY" role="2Oq$k0">
+                    <node concept="1YBJjd" id="7K0qjTudEdZ" role="2Oq$k0">
+                      <ref role="1YBMHb" node="7K0qjTudEdE" resolve="arithBinaryExpr" />
+                    </node>
+                    <node concept="3TrEf2" id="7K0qjTudEe0" role="2OqNvi">
+                      <ref role="3Tt5mk" to="thnv:6JWzqQlaDlC" resolve="left" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="7K0qjTudEe1" role="2OqNvi">
+                    <ref role="37wK5l" to="6797:6aIcktYoE0J" resolve="getType" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="7K0qjTudEe2" role="3uHU7B">
+                  <property role="Xl_RC" value="Left operand must be an integer type! " />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2MkqsV" id="7K0qjTudEe3" role="3cqZAp">
+            <node concept="37vLTw" id="7K0qjTudEe4" role="2MkJ7o">
+              <ref role="3cqZAo" node="7K0qjTudEdU" resolve="err" />
+            </node>
+            <node concept="2OqwBi" id="7K0qjTudEe5" role="1urrMF">
+              <node concept="1YBJjd" id="7K0qjTudEe6" role="2Oq$k0">
+                <ref role="1YBMHb" node="7K0qjTudEdE" resolve="arithBinaryExpr" />
+              </node>
+              <node concept="3TrEf2" id="7K0qjTudEe7" role="2OqNvi">
+                <ref role="3Tt5mk" to="thnv:6JWzqQlaDlC" resolve="left" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="7K0qjTudEe8" role="3cqZAp">
+        <node concept="3fqX7Q" id="7K0qjTudEe9" role="3clFbw">
+          <node concept="2OqwBi" id="7K0qjTudEea" role="3fr31v">
+            <node concept="2OqwBi" id="7K0qjTudEeb" role="2Oq$k0">
+              <node concept="2OqwBi" id="7K0qjTudEec" role="2Oq$k0">
+                <node concept="1YBJjd" id="7K0qjTudEed" role="2Oq$k0">
+                  <ref role="1YBMHb" node="7K0qjTudEdE" resolve="arithBinaryExpr" />
+                </node>
+                <node concept="3TrEf2" id="7K0qjTudEee" role="2OqNvi">
+                  <ref role="3Tt5mk" to="thnv:6JWzqQlaDlE" resolve="right" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="7K0qjTudEef" role="2OqNvi">
+                <ref role="37wK5l" to="6797:6aIcktYoE0J" resolve="getType" />
+              </node>
+            </node>
+            <node concept="3O6GUB" id="7K0qjTudEeg" role="2OqNvi">
+              <node concept="chp4Y" id="7K0qjTudEeh" role="3QVz_e">
+                <ref role="cht4Q" to="thnv:1N81XYtR2vg" resolve="IntegerType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="7K0qjTudEei" role="3clFbx">
+          <node concept="2MkqsV" id="7K0qjTudEej" role="3cqZAp">
+            <node concept="Xl_RD" id="7K0qjTudEek" role="2MkJ7o">
+              <property role="Xl_RC" value="Right operand must be an integer type!" />
+            </node>
+            <node concept="2OqwBi" id="7K0qjTudEel" role="1urrMF">
+              <node concept="1YBJjd" id="7K0qjTudEem" role="2Oq$k0">
+                <ref role="1YBMHb" node="7K0qjTudEdE" resolve="arithBinaryExpr" />
+              </node>
+              <node concept="3TrEf2" id="7K0qjTudEen" role="2OqNvi">
+                <ref role="3Tt5mk" to="thnv:6JWzqQlaDlE" resolve="right" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7K0qjTudEdE" role="1YuTPh">
+      <property role="TrG5h" value="arithBinaryExpr" />
+      <ref role="1YaFvo" to="thnv:7K0qjTudysP" resolve="ArithExpr" />
     </node>
   </node>
 </model>
