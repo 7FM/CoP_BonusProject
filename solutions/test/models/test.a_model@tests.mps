@@ -140,7 +140,6 @@
         <child id="3882654571446664625" name="independent" index="31vwxN" />
         <child id="5258193289479974157" name="nonpure" index="13cNvX" />
       </concept>
-      <concept id="7110675044797436644" name="SoseL21.structure.Type" flags="ng" index="sNeez" />
       <concept id="8935257377290547547" name="SoseL21.structure.ParenExpr" flags="ng" index="y5Lx_">
         <child id="8935257377290547552" name="expr" index="y5Lxu" />
       </concept>
@@ -409,6 +408,7 @@
               <node concept="3G3Dhg" id="6reyaHxNqM9" role="2CcoIq" />
             </node>
             <node concept="1ezyOg" id="6reyaHxNqMi" role="215nIl" />
+            <node concept="31vwxB" id="5QOjq8I8vFQ" role="31vwxN" />
           </node>
         </node>
         <node concept="3fYi07" id="4zSQJ0bC99m" role="1U4Uas">
@@ -835,7 +835,7 @@
               </node>
               <node concept="3G3Dhg" id="QbcTffPCwm" role="2CcoIq" />
             </node>
-            <node concept="sNeez" id="QbcTffPCvK" role="215nIl" />
+            <node concept="1ezyOg" id="5QOjq8IdKrE" role="215nIl" />
             <node concept="31vwxB" id="QbcTffPCvO" role="31vwxN" />
           </node>
           <node concept="3xLA65" id="QbcTffPCw_" role="lGtFl">
