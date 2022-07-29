@@ -800,40 +800,6 @@
     </node>
     <node concept="2tJIrI" id="QbcTffINei" role="jymVt" />
   </node>
-  <node concept="312cEu" id="1OoxxWeITbC">
-    <property role="3GE5qa" value="Expr" />
-    <property role="TrG5h" value="Precedence" />
-    <node concept="Qs71p" id="1OoxxWeJ4Ge" role="jymVt">
-      <property role="2bfB8j" value="true" />
-      <property role="TrG5h" value="Precendence" />
-      <node concept="3Tm1VV" id="1OoxxWeJ4Gf" role="1B3o_S" />
-      <node concept="QsSxf" id="1OoxxWeJ4Ww" role="Qtgdg">
-        <property role="TrG5h" value="UnaryNot" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-      <node concept="QsSxf" id="1OoxxWeJ52b" role="Qtgdg">
-        <property role="TrG5h" value="Mul" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-      <node concept="QsSxf" id="1OoxxWeJ5tl" role="Qtgdg">
-        <property role="TrG5h" value="Div" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-      <node concept="QsSxf" id="1OoxxWeJ5$3" role="Qtgdg">
-        <property role="TrG5h" value="Plus" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-      <node concept="QsSxf" id="1OoxxWeJ5Jy" role="Qtgdg">
-        <property role="TrG5h" value="Minus" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-      <node concept="QsSxf" id="1OoxxWeJ5QY" role="Qtgdg">
-        <property role="TrG5h" value="Cmp" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-    </node>
-    <node concept="3Tm1VV" id="1OoxxWeITbD" role="1B3o_S" />
-  </node>
   <node concept="2S6QgY" id="mNK0fapheT">
     <property role="TrG5h" value="InvClass" />
     <ref role="2ZfgGC" to="thnv:mNK0faiI04" resolve="ClassDefinition" />
@@ -935,6 +901,40 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="312cEu" id="1OoxxWeITbC">
+    <property role="3GE5qa" value="Expr" />
+    <property role="TrG5h" value="Precedence" />
+    <node concept="Qs71p" id="1OoxxWeJ4Ge" role="jymVt">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="Precendence" />
+      <node concept="3Tm1VV" id="1OoxxWeJ4Gf" role="1B3o_S" />
+      <node concept="QsSxf" id="1OoxxWeJ4Ww" role="Qtgdg">
+        <property role="TrG5h" value="UnaryNot" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="1OoxxWeJ52b" role="Qtgdg">
+        <property role="TrG5h" value="Mul" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="1OoxxWeJ5tl" role="Qtgdg">
+        <property role="TrG5h" value="Div" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="1OoxxWeJ5$3" role="Qtgdg">
+        <property role="TrG5h" value="Plus" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="1OoxxWeJ5Jy" role="Qtgdg">
+        <property role="TrG5h" value="Minus" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="1OoxxWeJ5QY" role="Qtgdg">
+        <property role="TrG5h" value="Cmp" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="1OoxxWeITbD" role="1B3o_S" />
   </node>
 </model>
 
