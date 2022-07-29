@@ -1923,5 +1923,117 @@
     </node>
     <node concept="3Tm1VV" id="5QOjq8Id7TM" role="1B3o_S" />
   </node>
+  <node concept="18kY7G" id="5QOjq8Ih8Bj">
+    <property role="TrG5h" value="check_LogicalExpr" />
+    <property role="3GE5qa" value="Expr.Binary.Logical" />
+    <node concept="3clFbS" id="5QOjq8Ih8Bk" role="18ibNy">
+      <node concept="3clFbJ" id="5QOjq8Ih8Bq" role="3cqZAp">
+        <node concept="3fqX7Q" id="5QOjq8Ih8Br" role="3clFbw">
+          <node concept="2OqwBi" id="5QOjq8Ih8Bs" role="3fr31v">
+            <node concept="2OqwBi" id="5QOjq8Ih8Bt" role="2Oq$k0">
+              <node concept="2OqwBi" id="5QOjq8Ih8Bu" role="2Oq$k0">
+                <node concept="1YBJjd" id="5QOjq8Ih8Bv" role="2Oq$k0">
+                  <ref role="1YBMHb" node="5QOjq8Ih8Bm" resolve="logicalExpr" />
+                </node>
+                <node concept="3TrEf2" id="5QOjq8Ih8Bw" role="2OqNvi">
+                  <ref role="3Tt5mk" to="thnv:6JWzqQlaDlC" resolve="left" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="5QOjq8Ih8Bx" role="2OqNvi">
+                <ref role="37wK5l" to="6797:6aIcktYoE0J" resolve="getType" />
+              </node>
+            </node>
+            <node concept="3O6GUB" id="5QOjq8Ih8By" role="2OqNvi">
+              <node concept="chp4Y" id="5QOjq8Ih8Bz" role="3QVz_e">
+                <ref role="cht4Q" to="thnv:1N81XYtR2vg" resolve="IntegerType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="5QOjq8Ih8B$" role="3clFbx">
+          <node concept="3cpWs8" id="5QOjq8Ih8B_" role="3cqZAp">
+            <node concept="3cpWsn" id="5QOjq8Ih8BA" role="3cpWs9">
+              <property role="TrG5h" value="err" />
+              <node concept="17QB3L" id="5QOjq8Ih8BB" role="1tU5fm" />
+              <node concept="3cpWs3" id="5QOjq8Ih8BC" role="33vP2m">
+                <node concept="2OqwBi" id="5QOjq8Ih8BD" role="3uHU7w">
+                  <node concept="2OqwBi" id="5QOjq8Ih8BE" role="2Oq$k0">
+                    <node concept="3TrEf2" id="5QOjq8Ih8BF" role="2OqNvi">
+                      <ref role="3Tt5mk" to="thnv:6JWzqQlaDlC" resolve="left" />
+                    </node>
+                    <node concept="1YBJjd" id="5QOjq8Ih8BG" role="2Oq$k0">
+                      <ref role="1YBMHb" node="5QOjq8Ih8Bm" resolve="logicalExpr" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="5QOjq8Ih8BH" role="2OqNvi">
+                    <ref role="37wK5l" to="6797:6aIcktYoE0J" resolve="getType" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="5QOjq8Ih8BI" role="3uHU7B">
+                  <property role="Xl_RC" value="Left operand must be an integer type! " />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2MkqsV" id="5QOjq8Ih8BJ" role="3cqZAp">
+            <node concept="37vLTw" id="5QOjq8Ih8BK" role="2MkJ7o">
+              <ref role="3cqZAo" node="5QOjq8Ih8BA" resolve="err" />
+            </node>
+            <node concept="2OqwBi" id="5QOjq8Ih8BL" role="1urrMF">
+              <node concept="1YBJjd" id="5QOjq8Ih8BM" role="2Oq$k0">
+                <ref role="1YBMHb" node="5QOjq8Ih8Bm" resolve="logicalExpr" />
+              </node>
+              <node concept="3TrEf2" id="5QOjq8Ih8BN" role="2OqNvi">
+                <ref role="3Tt5mk" to="thnv:6JWzqQlaDlC" resolve="left" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="5QOjq8Ih8BO" role="3cqZAp">
+        <node concept="3fqX7Q" id="5QOjq8Ih8BP" role="3clFbw">
+          <node concept="2OqwBi" id="5QOjq8Ih8BQ" role="3fr31v">
+            <node concept="2OqwBi" id="5QOjq8Ih8BR" role="2Oq$k0">
+              <node concept="2OqwBi" id="5QOjq8Ih8BS" role="2Oq$k0">
+                <node concept="3TrEf2" id="5QOjq8Ih8BU" role="2OqNvi">
+                  <ref role="3Tt5mk" to="thnv:6JWzqQlaDlE" resolve="right" />
+                </node>
+                <node concept="1YBJjd" id="5QOjq8Ih9FI" role="2Oq$k0">
+                  <ref role="1YBMHb" node="5QOjq8Ih8Bm" resolve="logicalExpr" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="5QOjq8Ih8BV" role="2OqNvi">
+                <ref role="37wK5l" to="6797:6aIcktYoE0J" resolve="getType" />
+              </node>
+            </node>
+            <node concept="3O6GUB" id="5QOjq8Ih8BW" role="2OqNvi">
+              <node concept="chp4Y" id="5QOjq8Ih8BX" role="3QVz_e">
+                <ref role="cht4Q" to="thnv:1N81XYtR2vg" resolve="IntegerType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="5QOjq8Ih8BY" role="3clFbx">
+          <node concept="2MkqsV" id="5QOjq8Ih8BZ" role="3cqZAp">
+            <node concept="Xl_RD" id="5QOjq8Ih8C0" role="2MkJ7o">
+              <property role="Xl_RC" value="Right operand must be an integer type!" />
+            </node>
+            <node concept="2OqwBi" id="5QOjq8Ih8C1" role="1urrMF">
+              <node concept="3TrEf2" id="5QOjq8Ih8C3" role="2OqNvi">
+                <ref role="3Tt5mk" to="thnv:6JWzqQlaDlE" resolve="right" />
+              </node>
+              <node concept="1YBJjd" id="5QOjq8Ih9XY" role="2Oq$k0">
+                <ref role="1YBMHb" node="5QOjq8Ih8Bm" resolve="logicalExpr" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5QOjq8Ih8Bm" role="1YuTPh">
+      <property role="TrG5h" value="logicalExpr" />
+      <ref role="1YaFvo" to="thnv:7K0qjTudBWb" resolve="LogicalExpr" />
+    </node>
+  </node>
 </model>
 
