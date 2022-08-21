@@ -120,20 +120,6 @@
   <node concept="1M2fIO" id="6N9oLy0M3vI">
     <property role="3GE5qa" value="Stmt" />
     <ref role="1M2myG" to="thnv:6N9oLy0LZt8" resolve="ReturnStmt" />
-    <node concept="9S07l" id="6N9oLy0M3vJ" role="9Vyp8">
-      <node concept="3clFbS" id="6N9oLy0M3vK" role="2VODD2">
-        <node concept="3clFbF" id="6N9oLy0M3zJ" role="3cqZAp">
-          <node concept="2OqwBi" id="6N9oLy0M3Kx" role="3clFbG">
-            <node concept="nLn13" id="6N9oLy0M4c0" role="2Oq$k0" />
-            <node concept="1mIQ4w" id="6N9oLy0M3R_" role="2OqNvi">
-              <node concept="chp4Y" id="6N9oLy0M3XE" role="cj9EA">
-                <ref role="cht4Q" to="thnv:3WpT_OHt8EK" resolve="FunctionBody" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="1M2fIO" id="7aFqT7gIuwH">
     <property role="3GE5qa" value="Func" />
@@ -325,6 +311,48 @@
                 <node concept="3TrEf2" id="7jsfuEv$6Yd" role="2OqNvi">
                   <ref role="3Tt5mk" to="thnv:qWctYJdn6l" resolve="clazz" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1$iD5iDqlTa">
+    <property role="3GE5qa" value="Stmt" />
+    <ref role="1M2myG" to="thnv:1fHe5iksIuE" resolve="ForLoopInit" />
+    <node concept="9S07l" id="1$iD5iDqlTb" role="9Vyp8">
+      <node concept="3clFbS" id="1$iD5iDqlTc" role="2VODD2">
+        <node concept="3clFbF" id="1$iD5iDqlXb" role="3cqZAp">
+          <node concept="2OqwBi" id="1$iD5iDqmHs" role="3clFbG">
+            <node concept="2OqwBi" id="1$iD5iDqm9I" role="2Oq$k0">
+              <node concept="nLn13" id="1$iD5iDqlXa" role="2Oq$k0" />
+              <node concept="2yIwOk" id="1$iD5iDqmqM" role="2OqNvi" />
+            </node>
+            <node concept="3O6GUB" id="1$iD5iDqmUI" role="2OqNvi">
+              <node concept="chp4Y" id="1$iD5iDqn2a" role="3QVz_e">
+                <ref role="cht4Q" to="thnv:2qQqMIexZ$8" resolve="ForStmt" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1$iD5iDqpVF">
+    <property role="3GE5qa" value="Stmt" />
+    <ref role="1M2myG" to="thnv:1fHe5iksKoK" resolve="ForLoopStep" />
+    <node concept="9S07l" id="1$iD5iDqpVG" role="9Vyp8">
+      <node concept="3clFbS" id="1$iD5iDqpVH" role="2VODD2">
+        <node concept="3clFbF" id="1$iD5iDqpZF" role="3cqZAp">
+          <node concept="2OqwBi" id="1$iD5iDqpZH" role="3clFbG">
+            <node concept="2OqwBi" id="1$iD5iDqpZI" role="2Oq$k0">
+              <node concept="nLn13" id="1$iD5iDqpZJ" role="2Oq$k0" />
+              <node concept="2yIwOk" id="1$iD5iDqpZK" role="2OqNvi" />
+            </node>
+            <node concept="3O6GUB" id="1$iD5iDqpZL" role="2OqNvi">
+              <node concept="chp4Y" id="1$iD5iDqpZM" role="3QVz_e">
+                <ref role="cht4Q" to="thnv:2qQqMIexZ$8" resolve="ForStmt" />
               </node>
             </node>
           </node>

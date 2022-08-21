@@ -178,7 +178,7 @@
       <property role="IQ2ns" value="2789534854021642505" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="init" />
-      <ref role="20lvS9" node="mNK0fanA_o" resolve="AssignStmt" />
+      <ref role="20lvS9" node="1fHe5iksIuE" resolve="ForLoopInit" />
     </node>
     <node concept="1TJgyj" id="2qQqMIexZ$b" role="1TKVEi">
       <property role="IQ2ns" value="2789534854021642507" />
@@ -191,14 +191,14 @@
       <property role="IQ2ns" value="2789534854021642510" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="step" />
-      <ref role="20lvS9" node="mNK0fanA_o" resolve="AssignStmt" />
+      <ref role="20lvS9" node="1fHe5iksKoK" resolve="ForLoopStep" />
     </node>
     <node concept="1TJgyj" id="2qQqMIexZ$i" role="1TKVEi">
       <property role="IQ2ns" value="2789534854021642514" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="body" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2qQqMIexY2D" resolve="IStmt" />
+      <ref role="20lvS9" node="2qQqMIexY2I" resolve="CompoundStmt" />
     </node>
     <node concept="PrWs8" id="2qQqMIeyRf5" role="PzmwI">
       <ref role="PrY4T" node="2qQqMIexY2D" resolve="IStmt" />
@@ -242,9 +242,6 @@
       <property role="20kJfa" value="returnType" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6aIcktYoHb$" resolve="Type" />
-    </node>
-    <node concept="PrWs8" id="3WpT_OHtP0o" role="PzmwI">
-      <ref role="PrY4T" node="2qQqMIexY2D" resolve="IStmt" />
     </node>
     <node concept="PrWs8" id="34GktjlGfB9" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -296,7 +293,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="body" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2qQqMIexY2D" resolve="IStmt" />
+      <ref role="20lvS9" node="2qQqMIexY2I" resolve="CompoundStmt" />
     </node>
   </node>
   <node concept="1TIwiD" id="3K7Qb_bTLrO">
@@ -870,9 +867,6 @@
     <node concept="PrWs8" id="5QOjq8Irm0D" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="PrWs8" id="5QOjq8Irm0E" role="PzmwI">
-      <ref role="PrY4T" node="2qQqMIexY2D" resolve="IStmt" />
-    </node>
     <node concept="PrWs8" id="5QOjq8Irm0F" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
@@ -886,9 +880,6 @@
     <node concept="PrWs8" id="5QOjq8Irm01" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="PrWs8" id="5QOjq8Irm02" role="PzmwI">
-      <ref role="PrY4T" node="2qQqMIexY2D" resolve="IStmt" />
-    </node>
     <node concept="PrWs8" id="5QOjq8Irm03" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
@@ -901,9 +892,6 @@
     <ref role="1TJDcQ" node="3WpT_OHt8EF" resolve="FunctionDeclaration" />
     <node concept="PrWs8" id="5QOjq8IrlZp" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="5QOjq8IrlZq" role="PzmwI">
-      <ref role="PrY4T" node="2qQqMIexY2D" resolve="IStmt" />
     </node>
     <node concept="PrWs8" id="5QOjq8IrlZr" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -971,6 +959,20 @@
     <property role="R5$K7" value="true" />
     <property role="R4oN_" value="Superclass for instance function calls" />
     <ref role="1TJDcQ" node="3WpT_OHt8EF" resolve="FunctionDeclaration" />
+  </node>
+  <node concept="1TIwiD" id="1fHe5iksIuE">
+    <property role="EcuMT" value="1435865792120022954" />
+    <property role="3GE5qa" value="Stmt" />
+    <property role="TrG5h" value="ForLoopInit" />
+    <property role="34LRSv" value="var" />
+    <ref role="1TJDcQ" node="1N81XYtR2vt" resolve="VarDeclStmt" />
+  </node>
+  <node concept="1TIwiD" id="1fHe5iksKoK">
+    <property role="EcuMT" value="1435865792120030768" />
+    <property role="3GE5qa" value="Stmt" />
+    <property role="TrG5h" value="ForLoopStep" />
+    <property role="34LRSv" value="=" />
+    <ref role="1TJDcQ" node="mNK0fanA_o" resolve="AssignStmt" />
   </node>
 </model>
 
