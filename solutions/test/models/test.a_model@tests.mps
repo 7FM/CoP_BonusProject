@@ -137,13 +137,11 @@
       <concept id="8935257377290547547" name="SoseL21.structure.ParenExpr" flags="ng" index="y5Lx_">
         <child id="8935257377290547552" name="expr" index="y5Lxu" />
       </concept>
-      <concept id="8935257377292558384" name="SoseL21.structure.GeExpr" flags="ng" index="yd$$e" />
       <concept id="8935257377292558383" name="SoseL21.structure.LtExpr" flags="ng" index="yd$$h" />
       <concept id="8935257377292558380" name="SoseL21.structure.EqExpr" flags="ng" index="yd$$i" />
       <concept id="8935257377292558368" name="SoseL21.structure.ModExpr" flags="ng" index="yd$$u" />
       <concept id="8935257377292558366" name="SoseL21.structure.MulExpr" flags="ng" index="yd$$w" />
       <concept id="8935257377292558364" name="SoseL21.structure.PlusExpr" flags="ng" index="yd$$y" />
-      <concept id="8935257377292558365" name="SoseL21.structure.MinusExpr" flags="ng" index="yd$$z" />
       <concept id="2789534854021636270" name="SoseL21.structure.CompoundStmt" flags="ng" index="2CcoI5">
         <child id="2789534854021636273" name="stmts" index="2CcoIq" />
       </concept>
@@ -622,34 +620,20 @@
                   </node>
                 </node>
               </node>
+              <node concept="3fVq_r" id="1I9FYtn3rBQ" role="2CcoIq">
+                <node concept="215ktu" id="1I9FYtn3rBO" role="3fVq_o">
+                  <ref role="215mAO" node="1$iD5iDqTrQ" resolve="curr" />
+                </node>
+                <node concept="215ktu" id="1I9FYtn3rDb" role="3fVq_u">
+                  <ref role="215mAO" node="1$iD5iDqs08" resolve="head" />
+                </node>
+              </node>
               <node concept="215202" id="1$iD5iDqYvC" role="2CcoIq">
                 <property role="TrG5h" value="sum" />
                 <node concept="21520f" id="1$iD5iDqYwz" role="2DEAUM" />
               </node>
               <node concept="2Ccp8z" id="1$iD5iDqYss" role="2CcoIq">
-                <node concept="yd$$e" id="1$iD5iDqYu7" role="2Ccp8w">
-                  <node concept="215ktl" id="1$iD5iDqYuk" role="3YPxz7">
-                    <property role="215ktk" value="0" />
-                  </node>
-                  <node concept="215ktu" id="1$iD5iDqYtZ" role="3YPxz5">
-                    <ref role="215mAO" node="1$iD5iDqYsH" resolve="i" />
-                  </node>
-                </node>
                 <node concept="2CcoI5" id="1$iD5iDqYsw" role="2Ccp8T">
-                  <node concept="2DEAUN" id="1$iD5iDqYsx" role="2CcoIq">
-                    <property role="TrG5h" value="prev" />
-                    <node concept="2DyjA2" id="1$iD5iDqYsy" role="2DEAUL">
-                      <node concept="2Dyk1b" id="1$iD5iDqYsz" role="2Dyk1M">
-                        <ref role="2Dyk1a" node="7curPgonaGn" resolve="LinkedList" />
-                      </node>
-                      <node concept="215ktu" id="1$iD5iDqYs$" role="2DyjAV">
-                        <ref role="215mAO" node="1$iD5iDqYsH" resolve="i" />
-                      </node>
-                    </node>
-                    <node concept="2Dyk1b" id="1$iD5iDqYs_" role="2DEAUM">
-                      <ref role="2Dyk1a" node="7curPgonaGn" resolve="LinkedList" />
-                    </node>
-                  </node>
                   <node concept="3fVq_r" id="1$iD5iDqYwJ" role="2CcoIq">
                     <node concept="215ktu" id="1$iD5iDqYwH" role="3fVq_o">
                       <ref role="215mAO" node="1$iD5iDqYvC" resolve="sum" />
@@ -658,11 +642,22 @@
                       <node concept="3FkPzo" id="1$iD5iDqYxE" role="3YPxz7">
                         <ref role="3FkOvz" node="7curPgoowQd" resolve="get" />
                         <node concept="215ktu" id="1$iD5iDqYxy" role="3FkOgO">
-                          <ref role="215mAO" node="1$iD5iDqYsx" resolve="prev" />
+                          <ref role="215mAO" node="1$iD5iDqTrQ" resolve="curr" />
                         </node>
                       </node>
                       <node concept="215ktu" id="1$iD5iDqYx4" role="3YPxz5">
                         <ref role="215mAO" node="1$iD5iDqYvC" resolve="sum" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3fVq_r" id="1I9FYtn3rJ9" role="2CcoIq">
+                    <node concept="215ktu" id="1I9FYtn3rJ7" role="3fVq_o">
+                      <ref role="215mAO" node="1$iD5iDqTrQ" resolve="curr" />
+                    </node>
+                    <node concept="3FkPzo" id="1I9FYtn3rKW" role="3fVq_u">
+                      <ref role="3FkOvz" node="7curPgooxgt" resolve="getNext" />
+                      <node concept="215ktu" id="1I9FYtn3rJM" role="3FkOgO">
+                        <ref role="215mAO" node="1$iD5iDqTrQ" resolve="curr" />
                       </node>
                     </node>
                   </node>
@@ -671,20 +666,28 @@
                   <property role="TrG5h" value="i" />
                   <node concept="21520f" id="1$iD5iDqYsI" role="2DEAUM" />
                   <node concept="215ktl" id="1$iD5iDqYsJ" role="215hL2">
-                    <property role="215ktk" value="9" />
+                    <property role="215ktk" value="1" />
                   </node>
                 </node>
                 <node concept="27BzT$" id="1$iD5iDqYsK" role="2Ccp8_">
                   <node concept="215ktu" id="1$iD5iDqYsL" role="3fVq_o">
                     <ref role="215mAO" node="1$iD5iDqYsH" resolve="i" />
                   </node>
-                  <node concept="yd$$z" id="1$iD5iDqYut" role="3fVq_u">
-                    <node concept="215ktl" id="1$iD5iDqYuE" role="3YPxz7">
+                  <node concept="yd$$y" id="1I9FYtn3rI9" role="3fVq_u">
+                    <node concept="215ktl" id="1I9FYtn3rIm" role="3YPxz7">
                       <property role="215ktk" value="1" />
                     </node>
-                    <node concept="215ktu" id="1$iD5iDqYsO" role="3YPxz5">
+                    <node concept="215ktu" id="1I9FYtn3rI3" role="3YPxz5">
                       <ref role="215mAO" node="1$iD5iDqYsH" resolve="i" />
                     </node>
+                  </node>
+                </node>
+                <node concept="yd$$h" id="1I9FYtn3rF6" role="2Ccp8w">
+                  <node concept="215ktl" id="1I9FYtn3rFd" role="3YPxz7">
+                    <property role="215ktk" value="10" />
+                  </node>
+                  <node concept="215ktu" id="1I9FYtn3rF0" role="3YPxz5">
+                    <ref role="215mAO" node="1$iD5iDqYsH" resolve="i" />
                   </node>
                 </node>
               </node>
